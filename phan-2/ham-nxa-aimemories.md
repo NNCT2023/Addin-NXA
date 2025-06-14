@@ -1,71 +1,68 @@
-🚀 Hướng Dẫn Sử Dụng Hàm NXA_AIMemories
-💡 Chức Năng
-Hàm NXA_AIMemories giúp bạn tương tác với mô hình ngôn ngữ lớn (Large Language Model - LLM) của Google AI, Gemini, trong môi trường giống như trò chuyện trực tiếp từ Excel. Bạn có thể đặt câu hỏi cho Gemini và nhận lại câu trả lời dựa trên kiến thức và khả năng xử lý ngôn ngữ của nó. Điểm đặc biệt của hàm này là khả năng lưu trữ lịch sử trò chuyện để tạo ngữ cảnh cho các tương tác tiếp theo, giúp cuộc hội thoại trở nên liền mạch và thông minh hơn.
+🚀 Hướng Dẫn Sử Dụng Hàm NXA_AIMemories Trong Google Sheets/Excel
+💡 Giới Thiệu Chức Năng
+Hàm NXA_AIMemories là một công cụ mạnh mẽ giúp bạn tương tác trực tiếp với mô hình ngôn ngữ lớn (LLM) của Google AI, Gemini, ngay trong môi trường bảng tính của bạn (Google Sheets hoặc Excel). Chức năng này cho phép bạn:
 
-📦 Các Đối Số
-Hàm NXA_AIMemories nhận hai đối số:
+❓ Đặt câu hỏi cho Gemini và nhận lại câu trả lời thông minh dựa trên kiến thức và khả năng xử lý ngôn ngữ của nó.
+💾 Lưu trữ lịch sử trò chuyện để Gemini có thể ghi nhớ ngữ cảnh từ các tương tác trước đó, giúp cuộc hội thoại trở nên liền mạch và tự nhiên hơn.
+⚙️ Các Đối Số
+Hàm NXA_AIMemories có hai đối số:
 
-text (bắt buộc):
+**text** (bắt buộc):
+Kiểu dữ liệu: String 📝
+Mô tả: Đây là câu hỏi hoặc yêu cầu mà bạn muốn gửi đến Gemini.
+**reset** (tùy chọn):
+Kiểu dữ liệu: Boolean (mặc định là FALSE) 🔄
+Mô tả: Khi đặt là TRUE, hàm sẽ xóa toàn bộ lịch sử trò chuyện đã lưu, bắt đầu một cuộc hội thoại mới tinh với Gemini mà không có ngữ cảnh cũ.
+🚀 Cách Sử Dụng
+Thực hiện theo các bước đơn giản sau để bắt đầu tương tác với Gemini:
 
-Kiểu dữ liệu: String
-
-Đây là câu hỏi hoặc yêu cầu mà bạn muốn đặt cho Gemini.
-
-reset (tùy chọn):
-
-Kiểu dữ liệu: Boolean (mặc định là False)
-
-Xác định liệu có xóa toàn bộ lịch sử trò chuyện và bắt đầu lại một cuộc hội thoại mới hay không.
-
-📝 Cách Sử Dụng
-Để bắt đầu tương tác với Gemini qua hàm này trong Excel, bạn thực hiện theo các bước đơn giản sau:
-
-Nhập công thức: Trong ô bạn muốn hiển thị câu trả lời từ Gemini, nhập công thức:
+Nhập Công Thức:
+Trong ô bảng tính mà bạn muốn nhận kết quả từ Gemini, hãy nhập công thức với cú pháp:
+Excel
 
 =NXA_AIMemories(text, [reset])
+Thay Thế Các Đối Số:
+Đối số text: Nhập câu hỏi hoặc yêu cầu của bạn trong dấu ngoặc kép. Ví dụ: "What is the capital of France?"
+Đối số reset (tùy chọn):
+Bỏ qua nếu bạn muốn duy trì lịch sử trò chuyện (mặc định FALSE).
+Điền TRUE nếu bạn muốn xóa lịch sử và bắt đầu lại từ đầu. Ví dụ: , TRUE
+Nhấn Enter:
+Sau khi nhập công thức, nhấn Enter để chạy hàm. Gemini sẽ xử lý yêu cầu của bạn và hiển thị câu trả lời trực tiếp trong ô đó.
+💡 Ví Dụ Minh Họa
+Dưới đây là một số ví dụ thực tế về cách sử dụng hàm:
 
-Thay thế các đối số:
+Hỏi Gemini về thủ đô của nước Pháp:
 
-Cho text: Nhập câu hỏi hoặc yêu cầu của bạn vào đây (ví dụ: "Kể cho tôi nghe một câu chuyện ngắn.").
-
-Cho reset: (Tùy chọn) Điền TRUE nếu bạn muốn xóa toàn bộ lịch sử trò chuyện và bắt đầu một cuộc hội thoại mới tinh. Bỏ qua đối số này hoặc điền FALSE để tiếp tục cuộc hội thoại hiện có.
-
-Nhấn Enter: Sau khi nhập xong công thức, nhấn Enter để chạy hàm và nhận câu trả lời từ Gemini trực tiếp trong ô Excel của bạn.
-
-✨ Ví Dụ Minh Họa
-Dưới đây là một số ví dụ minh họa cách sử dụng hàm NXA_AIMemories:
-
-Hỏi về kiến thức tổng quát:
+Excel
 
 =NXA_AIMemories("What is the capital of France?")
+(Kết quả sẽ là "Paris")
 
-Xóa toàn bộ "ký ức" của AI:
+Xóa toàn bộ "ký ức" của AI và bắt đầu cuộc hội thoại mới:
+
+Excel
 
 =NXA_AIMemories("reset", TRUE)
+(Hàm này sẽ không trả về câu trả lời mà chỉ thực hiện việc xóa lịch sử.)
 
-(Hãy thận trọng khi sử dụng lệnh này vì nó sẽ xóa vĩnh viễn lịch sử trò chuyện của AI.)
+⚠️ Lưu Ý Quan Trọng Khi Sử Dụng Hàm!
+📝 Các Yếu Tố Cần Lưu Ý
+Để đảm bảo hàm hoạt động trơn tru và hiệu quả, hãy chú ý các điểm sau:
 
-⚠️ Lưu Ý Quan Trọng
-Để đảm bảo hàm hoạt động trơn tru, hãy lưu ý các điểm sau:
-
-🌐 Kết nối Internet: Cần đảm bảo có kết nối internet ổn định để hàm có thể gửi yêu cầu và nhận phản hồi từ API của Google AI.
-
-🔑 API Key: Hướng dẫn này cung cấp API Key mẫu, nhưng bạn cần có API Key riêng của mình để kích hoạt đầy đủ chức năng. Hãy đảm bảo API Key của bạn được bảo mật.
-
-📜 Lịch sử Trò chuyện: Lịch sử trò chuyện được lưu trữ trong một tệp tin văn bản trên máy tính của bạn, giúp Gemini duy trì ngữ cảnh. Bạn có thể xóa lịch sử này bằng cách đặt đối số reset thành TRUE.
-
-🗣️ Ngôn ngữ: Hiện tại, Gemini (qua hàm này) chỉ hỗ trợ tiếng Anh. Hãy đặt câu hỏi và mong đợi câu trả lời bằng tiếng Anh.
-
+🌐 Kết nối Internet:
+Bạn cần phải có kết nối internet ổn định để hàm có thể gửi yêu cầu đến máy chủ của Google AI và nhận lại phản hồi.
+🔑 API Key:
+Mặc dù hướng dẫn có thể cung cấp API Key mẫu, nhưng bạn cần có API Key riêng của mình từ Google AI Studio hoặc nền tảng tương tự để kích hoạt đầy đủ chức năng. API Key này giúp xác thực quyền truy cập của bạn.
+📜 Lịch sử trò chuyện:
+Lịch sử trò chuyện thường được lưu trữ trong một tệp tin văn bản trên máy tính của bạn. Điều này giúp duy trì ngữ cảnh giữa các lần sử dụng.
+Bạn có thể dễ dàng xóa lịch sử này bằng cách đặt đối số reset thành TRUE như ví dụ trên.
+🗣️ Ngôn ngữ:
+Tại thời điểm hiện tại, Gemini qua hàm này chủ yếu hỗ trợ tiếng Anh. Đảm bảo bạn đặt câu hỏi bằng tiếng Anh để có kết quả tốt nhất.
 🎯 Các Trường Hợp Sử Dụng Khác
-Hàm NXA_AIMemories mở ra nhiều khả năng tương tác:
+Hàm NXA_AIMemories mở ra nhiều khả năng sáng tạo:
 
-🧠 Đặt câu hỏi về kiến thức tổng hợp và nhận thông tin nhanh chóng.
-
-✍️ Yêu cầu Gemini thực hiện các tác vụ đơn giản bằng ngôn ngữ tự nhiên.
-
-💡 Sử dụng Gemini để sáng tạo nội dung văn bản, lên ý tưởng.
-
-📊 Hỗ trợ tóm tắt thông tin từ các đoạn văn dài.
-
-📚 Tóm Tắt
-Hàm NXA_AIMemories là một công cụ mạnh mẽ và thú vị để tích hợp khả năng của mô hình ngôn ngữ lớn Gemini trực tiếp vào Excel. Nó cho phép bạn dễ dàng đặt câu hỏi, nhận câu trả lời thông minh và tận dụng khả năng xử lý ngôn ngữ của Gemini với lợi thế của lịch sử trò chuyện. Hãy nhớ các lưu ý về API Key và ngôn ngữ để có trải nghiệm tốt nhất!
+📚 Đặt câu hỏi về kiến thức tổng hợp: Tìm kiếm thông tin nhanh chóng về bất kỳ chủ đề nào.
+✍️ Yêu cầu Gemini thực hiện các tác vụ đơn giản bằng ngôn ngữ: Ví dụ: "Summarize this paragraph," hoặc "Translate 'Hello' to Spanish."
+📝 Sử dụng Gemini để sáng tạo nội dung văn bản: Yêu cầu Gemini viết một đoạn văn ngắn, một ý tưởng blog, hoặc một kịch bản đơn giản.
+🌟 Tóm Tắt
+Hàm NXA_AIMemories là một công cụ cực kỳ thú vị và hữu ích để tích hợp khả năng của mô hình ngôn ngữ lớn Gemini vào quy trình làm việc của bạn trong bảng tính. Nó cho phép bạn đặt câu hỏi, nhận câu trả lời tức thì, và tận dụng khả năng xử lý ngôn ngữ mạnh mẽ của Gemini để hỗ trợ công việc hoặc học tập. Hãy nhớ kiểm tra API Key và ngôn ngữ hỗ trợ để có trải nghiệm tốt nhất!
