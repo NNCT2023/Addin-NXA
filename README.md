@@ -1,6 +1,6 @@
-# 📖 Giới thiệu Add-in NXA: Trợ lý AI Đa Năng Nâng Tầm Trải Nghiệm Excel của Bạn  
+# 📖 Giới thiệu [Add-in NXA](https://github.com/XuanAn2018/Addin-NXA): Trợ lý AI Đa Năng Nâng Tầm Trải Nghiệm Excel của Bạn  
 
-- `Add-in NXA `là một công cụ mạnh mẽ tích hợp trí tuệ nhân tạo vào Microsoft Excel, biến bảng tính của bạn thành một trung tâm phân tích và xử lý dữ liệu thông minh.  
+- [Add-in NXA](https://github.com/XuanAn2018/Addin-NXA) là một công cụ mạnh mẽ tích hợp trí tuệ nhân tạo vào Microsoft Excel, biến bảng tính của bạn thành một trung tâm phân tích và xử lý dữ liệu thông minh.  
 - Với NXA, bạn không chỉ thực hiện các tác vụ Excel thông thường mà còn khai thác sức mạnh của AI Gemini để giải quyết các vấn đề phức tạp, tối ưu hóa quy trình làm việc và đưa ra quyết định sáng suốt hơn.  
 
 ---
