@@ -52,7 +52,8 @@
 ### 📚 **Hướng Dẫn Sử Dụng Chi Tiết Các Hàm**  
 Dưới đây là cú pháp và mô tả chi tiết cho từng hàm trong Add-in NXA:  
 
-> `NXA_AIMemories(text, [reset])`  
+> `NXA_AIMemories(text, [reset])`
+
 💬 Trò chuyện tương tự chatbot Gemini có khả năng ghi nhớ ngữ cảnh từ các cuộc hội thoại trước đó.  
 - `text`: Chuỗi văn bản chứa câu hỏi hoặc nội dung bạn muốn trò chuyện.  
 - `reset (Tùy chọn)`: Tham số Boolean.  
@@ -60,28 +61,33 @@ Dưới đây là cú pháp và mô tả chi tiết cho từng hàm trong Add-in
 - Đặt `TRUE`: Bắt đầu/đặt lại một phiên trò chuyện mới.
 
 
-> `NXA_AskGemini(text, [word_count])`  
+> `NXA_AskGemini(text, [word_count])`
+
 ❓ Trả về kết quả cho một câu hỏi cụ thể được gửi đến Gemini.  
 - `text`: Chuỗi văn bản chứa câu hỏi bạn muốn hỏi.  
 - `word_count (Tùy chọn)`: Số nguyên. Chỉ định số lượng từ tối đa cho kết quả do Gemini tạo ra.
 
 
-> `NXA_Chat()`  
+> `NXA_Chat()`
+
 🗨️ Mở một giao diện người dùng (UserForm) cho phép người dùng trò chuyện trực tiếp với Gemini trong môi trường Excel.  
 
-> `NXA_Extractor(prompt, keyword)`  
+> `NXA_Extractor(prompt, keyword)`
+
 ✂️ Trích xuất dữ liệu chính từ một đoạn văn bản dựa trên từ khóa được chỉ định.  
 - `prompt`: Tham chiếu đến ô chứa văn bản nguồn mà bạn muốn trích xuất dữ liệu.  
 - `keyword`: Chuỗi văn bản chỉ định loại dữ liệu muốn trích xuất (ví dụ: "tên", "địa điểm", "tổ chức", "email").
 
 
-> `NXA_FillData(rng_existingdata, rng_fill)`  
+> `NXA_FillData(rng_existingdata, rng_fill)`
+
 ✍️ Tự động điền dữ liệu bị thiếu bằng cách sử dụng AI học từ dữ liệu hiện có.  
 - `rng_existingdata`: Tham chiếu đến vùng dữ liệu đã có mà AI sẽ dùng để huấn luyện.  
 - `rng_fill`: Tham chiếu đến ô hoặc vùng ô cần điền dữ liệu.
 
 
-> `NXA_Explain(cellFormula, [detail], [language])`  
+> `NXA_Explain(cellFormula, [detail], [language])`
+
 💡 Cung cấp lời giải thích chi tiết cho một công thức Excel.  
 - `cellFormula`: Tham chiếu đến ô chứa công thức Excel cần giải thích (ví dụ: A1).  
 - `detail (Tùy chọn)`: Boolean.  
@@ -90,13 +96,15 @@ Dưới đây là cú pháp và mô tả chi tiết cho từng hàm trong Add-in
 - `language (Tùy chọn)`: Chuỗi văn bản. Mã ngôn ngữ mong muốn cho lời giải thích (ví dụ: "vi" cho tiếng Việt, "en" cho tiếng Anh).
 
 
-> `NXA_AITranslator(text As Variant, targetLanguage As String)`  
+> `NXA_AITranslator(text As Variant, targetLanguage As String)`
+
 🌐 Dịch văn bản từ ngôn ngữ nguồn sang ngôn ngữ đích thông qua mô hình Gemini.  
 - `text`: Văn bản bạn muốn dịch. Có thể là một chuỗi văn bản hoặc một tham chiếu vùng dữ liệu trong Excel.
 - `targetLanguage`: Chuỗi văn bản chứa mã ngôn ngữ đích (ví dụ: "en" cho tiếng Anh, "vi" cho tiếng Việt).
 
 
-> `NXA_Query(rngData, prompt)`  
+> `NXA_Query(rngData, prompt)`
+
 📈 Cho phép bạn truy vấn hoặc yêu cầu phân tích dữ liệu trực tiếp trong Excel bằng cách sử dụng Gemini.  
 - `rngData (Bắt buộc)`: Tham chiếu đến vùng dữ liệu trong bảng tính Excel mà bạn muốn truy vấn.  
 - `prompt (Bắt buộc)`: Chuỗi văn bản chứa câu hỏi hoặc yêu cầu phân tích bạn muốn gửi đến Gemini.
