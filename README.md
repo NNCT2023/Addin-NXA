@@ -17,7 +17,7 @@
 
     - `AITranslator`: 🌐 Dịch văn bản từ bất kỳ ngôn ngữ nào sang ngôn ngữ đích được chỉ định, tận dụng khả năng dịch thuật vượt trội của Gemini.  
 
-  -📊 **Hàm Phân Tích & Xử Lý Dữ Liệu**  
+  - 📊 **Hàm Phân Tích & Xử Lý Dữ Liệu**  
     - `NXA_Extractor`: ✂️ Trích xuất thông tin chính yếu từ văn bản, bảng tính hoặc các nguồn dữ liệu khác dựa trên từ khóa (ví dụ: tên, địa điểm, tổ chức), giúp tiết kiệm thời gian đáng kể.  
 
     - `NXA_FillData`: ✍️ Tự động điền dữ liệu vào các ô trống bằng cách học hỏi từ các mẫu và quy tắc trong dữ liệu hiện có.  
