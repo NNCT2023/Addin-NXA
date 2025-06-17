@@ -110,7 +110,8 @@ Dưới đây là cú pháp và mô tả chi tiết cho từng hàm trong Add-in
 - `prompt (Bắt buộc)`: Chuỗi văn bản chứa câu hỏi hoặc yêu cầu phân tích bạn muốn gửi đến Gemini.
 
 
-> `NXA_Insights(rngData, [prompt])`  
+> `NXA_Insights(rngData, [prompt])`
+
 🔍 Trích xuất thông tin chi tiết và ý nghĩa từ dữ liệu trong Excel thông qua phân tích chuyên sâu của Gemini.  
 - `rngData (Bắt buộc)`: Tham chiếu đến vùng dữ liệu trong bảng tính Excel mà bạn muốn phân tích.  
 - `prompt (Tùy chọn)`: Chuỗi văn bản chứa yêu cầu cụ thể về phân tích để hướng dẫn AI (ví dụ: "phân tích xu hướng doanh số", "tìm điểm bất thường").  
