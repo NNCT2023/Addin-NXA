@@ -64,6 +64,6 @@ Chào mừng bạn đến với **Add-in NXA**, một trợ lý AI tích hợp t
 ## 📬 Góp ý & liên hệ
 
 Bạn có thể gửi góp ý, báo lỗi hoặc yêu cầu thêm chức năng tại:\
-👉 [GitHub Issues](https://github.com/NNCT2023/Addin-NXA/issues) *(thay bằng link thực tế)*
+👉 [GitHub Issues](https://github.com/NNCT2023/Addin-NXA/issues)
 
-> 🛠️ Được thiết kế với 💙 bởi cộng đồng yêu thích Excel và AI.
+> 🛠️ Được thiết kế với 💙 bởi NXA và AI.
