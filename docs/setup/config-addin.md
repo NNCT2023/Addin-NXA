@@ -1,79 +1,31 @@
----
-title: 📘 Giới thiệu Add-in NXA
----
-
-# 💡 Add-in NXA – Trợ lý AI thông minh trong Excel
-
-Chào mừng bạn đến với **Add-in NXA**, một trợ lý AI tích hợp trực tiếp trong Excel giúp bạn:
-- **Add-in NXA** là trợ lý AI thông minh dành cho Excel, tích hợp công nghệ Gemini để hỗ trợ các tác vụ.
-- Giúp nâng cao trải nghiệm và tăng tốc công việc trong Excel.
-  
-
-💬 Giao tiếp tự nhiên với mô hình ngôn ngữ lớn Gemini\
-📊 Phân tích dữ liệu nhanh chóng\
-🧠 Tự động hóa nhiều thao tác nâng cao\
-🤖 Trò chuyện và hỏi đáp\
-📋 Tự động điền thông tin\
-📄 Trích xuất nội dung\
-✍️ Viết báo cáo, email chuyên nghiệp\
-🤖 Trợ lý AI ngay trong Excel\
-🔍 Trích xuất & điền dữ liệu thông minh\
-🎓 Học hỏi & mở rộng kiến thức\
+# **📌 Những Lưu Ý Quan Trọng Bạn Cần Biết:**  
+## **Cấu hình API**: 
+### ⚙️ Đây là bước quan trọng nhất để hàm có thể hoạt động.  
+- Hàm sử dụng thông tin cấu hình từ một file văn bản có tên config.txt nằm trong thư mục `Documents\ChatLogs` của bạn. 
+- Đường dẫn đầy đủ thường là `C:\Users\{Tên_người_dùng}\Documents\ChatLogs\config.txt`.  
+- File này phải chứa `API Key` và tên `Model` của Gemini mà bạn muốn sử dụng. Cụ thể, bạn sẽ thấy hai dòng: `API_KEY=YOUR_API_KEY_HERE` và `MODEL=tên_model_của_bạn`.  
+- Nếu lần đầu sử dụng mà không tìm thấy file `config.txt`, hàm sẽ tự động tạo một file mẫu cho bạn với hướng dẫn chi tiết bên trong.  
+- Bạn bắt buộc phải thay thế `YOUR_API_KEY_HERE` bằng `API Key` thực tế của mình. Bạn có thể lấy `API Key` này từ [Google AI Studio](https://aistudio.google.com/app/apikey) hoặc Google Cloud Platform.  
+- Bạn cũng có thể thay đổi `Model` muốn sử dụng (ví dụ: gemini-pro cho các tác vụ phức tạp hơn hoặc `gemini-1.5-flash` cho tốc độ). Hãy đảm bảo tên model chính xác.  
 
 ---
 
-## 🔧 Cài đặt và cấu hình
-
-📁 **Hướng dẫn thiết lập ban đầu:**
-
-- [⚙️ Cấu hình Add-in trong Excel](docs/setup/config-addin.md)
-- [🧩 Thiết lập trong Google Sheet](docs/setup/cai-dat-tren-GoogleSheet.md)
+## **Kết nối Internet:**  
+- 🌐 Các hàm tương tác với AI của Google cần có kết nối internet ổn định để gửi yêu cầu (dữ liệu/câu hỏi) và nhận về kết quả từ API của Gemini. Nếu không có internet, hàm sẽ báo lỗi kết nối.  
 
 ---
 
-## 🤖 Các hàm AI nổi bật
-
-✨ Dựa trên nền tảng Gemini AI, các hàm này giúp bạn tương tác và phân tích dữ liệu mạnh mẽ hơn:
-
-- [`AIMemories`](docs/excel-ai/AIMemories.md) – Trò chuyện có ngữ cảnh
-- [`AskGemini`](docs/excel-ai/AskGemini.md) – Hỏi đáp nhanh
-- [`Chat`](docs/excel-ai/Chat.md) – Mở khung hội thoại với AI
-- [`FillData`](docs/excel-ai/FillData.md) – Điền dữ liệu tự động
-- [`Extractor`](docs/excel-ai/Extractor.md) – Trích xuất nội dung từ văn bản
-- [`Explain`](docs/excel-ai/Explain.md) – Giải thích công thức
-- [`AITranslator`](docs/excel-ai/AITranslator.md) – Dịch văn bản tức thì
-- [`Query`](docs/excel-ai/Query.md) – Truy vấn bảng nâng cao
-- [`Insights`](docs/excel-ai/Insights.md) – Phân tích & gợi ý từ dữ liệu
-- [`SewingExpert`](docs/excel-ai/SewingExpert.md) – Hỗ trợ chuyên sâu ngành may
+## **Định dạng Dữ liệu:**  
+- 📄 Khi bạn cung cấp dữ liệu từ một vùng `(rngData)` trong Excel, dữ liệu này sẽ được chuyển đổi thành chuỗi văn bản (thường là định dạng JSON) trước khi gửi đến API của Gemini. Do đó, hãy đảm bảo rằng dữ liệu trong Excel của bạn được định dạng rõ ràng, có cấu trúc bảng với các tiêu đề cột dễ hiểu. Dữ liệu càng rõ ràng, AI càng dễ phân tích chính xác.  
 
 ---
 
-## 📚 Các hàm Excel nâng cao (NNCT)
-
-📌 Một số hàm tiện ích do cộng đồng đóng góp:
-
-- [`CallMacro`](docs/excel-formulas/CallMacro.md) – Gọi macro từ ô
-- [`GenerateQRCode`](docs/excel-formulas/GenerateQRCode.md) – Tạo mã QR tự động
-- [`GetURL`](docs/excel-formulas/GetURL.md) – Lấy liên kết từ ô
-- [`IMAGE`](docs/excel-formulas/IMAGE.md) – Hiển thị ảnh từ URL
-- [`QR`](docs/excel-formulas/QR.md) – QR động
-- [`QR_Bank`](docs/excel-formulas/QR_Bank.md) – Tạo QR chuyển khoản
-- [`TEXTJOIN`](docs/excel-formulas/TEXTJOIN.md) – Nối văn bản nâng cao
-- [`TRANSLATE`](docs/excel-formulas/TRANSLATE.md) – Dịch văn bản
+## **Độ Chính xác của Kết quả:**  
+ - 🎯 Chất lượng và độ chính xác của câu trả lời hay phân tích từ Gemini sẽ phụ thuộc trực tiếp vào độ phức tạp của câu hỏi và khả năng AI hiểu được dữ liệu cùng yêu cầu của bạn. Hãy cố gắng đặt câu hỏi rõ ràng, cụ thể và cung cấp dữ liệu có liên quan nhất.  
 
 ---
 
-## 🚀 Bắt đầu ngay!
-
-- [🔍 Tìm hiểu hàm `NXA_AIMemories`](docs/excel-ai/AIMemories.md)
-- [📊 Tự động điền dữ liệu với `FillData`](docs/excel-ai/FillData.md)
-- [📷 Tạo QR và ảnh động với hàm tiện ích](docs/excel-formulas/GenerateQRCode.md)
-
----
-
-## 📬 Góp ý & liên hệ
-
-Bạn có thể gửi góp ý, báo lỗi hoặc yêu cầu thêm chức năng tại:\
-👉 [GitHub Issues](https://github.com/NNCT2023/Addin-NXA/issues)
-
-> 🛠️ Được thiết kế với 💙 bởi NXA và AI.
+## **📌Yêu cầu Thư viện:**
+- [JsonConverter](https://github.com/VBA-tools/VBA-JSON)  
+- 🧩 Một số hàm nâng cao (như những hàm xử lý dữ liệu phức tạp hoặc cần đọc/ghi cấu hình) sẽ cần đến thư viện [JsonConverter](https://github.com/VBA-tools/VBA-JSON). Thư viện này giúp VBA có thể xử lý dữ liệu trả về từ API dưới dạng JSON.  
+- Bạn cần đảm bảo đã cài đặt thư viện này (thường là file .bas hoặc .cls được import vào VBA Project của bạn) và đã tham chiếu đúng cách trong phần VBA Editor (Tools -> References...). Nếu thiếu, hàm sẽ báo lỗi liên quan đến JSON hoặc thiếu thư viện.
