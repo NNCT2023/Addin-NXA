@@ -1,5 +1,5 @@
 ---
-title: 📘 Giới thiệu Add-in NXA
+title: 📄 Hướng dẫn chi tiết Add-in NXA 
 ---
 
 # 💡 Add-in NXA – Trợ lý AI thông minh trong Excel
