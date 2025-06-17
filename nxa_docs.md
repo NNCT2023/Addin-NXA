@@ -18,7 +18,7 @@ Chào mừng bạn đến với **Add-in NXA**, một trợ lý AI tích hợp t
 ✍️ Viết báo cáo, email chuyên nghiệp\
 🤖 Trợ lý AI ngay trong Excel\
 🔍 Trích xuất & điền dữ liệu thông minh\
-🎓 Học hỏi & mở rộng kiến thức\
+🎓 Học hỏi & mở rộng kiến thức
 
 ---
 
@@ -63,17 +63,14 @@ Chào mừng bạn đến với **Add-in NXA**, một trợ lý AI tích hợp t
 
 ---
 
-## 🚀 Bắt đầu ngay!
+## 📬 Góp ý & Hỗ trợ
 
-- [🔍 Tìm hiểu hàm `NXA_AIMemories`](docs/excel-ai/AIMemories.md)
-- [📊 Tự động điền dữ liệu với `FillData`](docs/excel-ai/FillData.md)
-- [📷 Tạo QR và ảnh động với hàm tiện ích](docs/excel-formulas/GenerateQRCode.md)
+Nếu bạn gặp lỗi khi sử dụng Add-in, vui lòng gửi yêu cầu hỗ trợ tại:
+
+- [📧 Email hỗ trợ](mailto:	chiscoong+Addin.NXA@googlemail.com)
+- [🐛 Báo lỗi GitHub](https://github.com/NNCT2023/Addin-NXA/issues)
 
 ---
 
-## 📬 Góp ý & liên hệ
-
-Bạn có thể gửi góp ý, báo lỗi hoặc yêu cầu thêm chức năng tại:\
-👉 [GitHub Issues](https://github.com/NNCT2023/Addin-NXA/issues)
-
-> 🛠️ Được thiết kế với 💙 bởi NXA và AI.
+> 📌 **Lưu ý:** Một số hàm cần kết nối Internet và API Key riêng để hoạt động. Vui lòng tham khảo phần cấu hình nếu bạn chưa cài đặt đầy đủ.  
+> [Tải xuống Addin-NXA](https://github.com/XuanAn2018/Addin-NXA)
