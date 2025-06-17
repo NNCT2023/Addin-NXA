@@ -1,4 +1,4 @@
-## **📚Hướng Dẫn Sử Dụng Hàm NXA_AIMemories**  
+**📚Hướng Dẫn Sử Dụng Hàm NXA_AIMemories**  
 
 ## 🌟 Chức năng:  
 - Hàm `NXA_AIMemories` 🤝 giúp bạn tương tác trực tiếp với mô hình ngôn ngữ lớn (Large Language Model - LLM) của Google AI, có tên là Gemini, trong môi trường giống như trò chuyện 💬.  
