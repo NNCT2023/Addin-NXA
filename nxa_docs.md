@@ -4,8 +4,8 @@ title: 📄 Hướng dẫn chi tiết Add-in NXA
 
 # 💡 [Add-in NXA](https://github.com/XuanAn2018/Addin-NXA) – Trợ lý AI thông minh trong Excel
 
-Chào mừng bạn đến với **Add-in NXA**, một trợ lý AI tích hợp trực tiếp trong Excel giúp bạn:
-- **Add-in NXA** là trợ lý AI thông minh dành cho Excel, tích hợp công nghệ Gemini để hỗ trợ các tác vụ.
+Chào mừng bạn đến với **[Add-in NXA](https://github.com/XuanAn2018/Addin-NXA)**, một trợ lý AI tích hợp trực tiếp trong Excel giúp bạn:
+- **[Add-in NXA](https://github.com/XuanAn2018/Addin-NXA)** là trợ lý AI thông minh dành cho Excel, tích hợp công nghệ Gemini để hỗ trợ các tác vụ.
 - Giúp nâng cao trải nghiệm và tăng tốc công việc trong Excel.
   
 
