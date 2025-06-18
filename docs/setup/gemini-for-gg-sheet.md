@@ -30,5 +30,5 @@ function askGPT(prompt) {
   }
 }
 ```
-// Author: JUNO_OKYO - J2TEAM
+// Author: [JUNO_OKYO - J2TEAM](https://gist.github.com/J2TEAM/91bc15ab65941d8db9cfb30de2b849a3)  
 // Recreated by [orinn2k7](https://gist.github.com/orius2k7/21bb709118e264e48277f66fd222a70d)
