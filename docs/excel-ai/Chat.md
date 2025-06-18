@@ -5,7 +5,8 @@
 
   - 📝 Cú pháp:  
 
-    - `=NXA_Chat()`  
+    - ```=NXA_Chat()```
+---
 
 ### 🚀 Cách sử dụng:  
   - **Nhập công thức:** ⌨️ Nhập công thức `=NXA_Chat()` vào bất kỳ ô nào trong bảng tính Excel của bạn (ví dụ: ô A1).  
@@ -13,17 +14,23 @@
 
 - **📈 Kết quả:**  
   - **Thành công:** 🎉 Nếu mọi thứ diễn ra suôn sẻ, cửa sổ UserForm sẽ mở ra, cho phép bạn tương tác với các chức năng được định nghĩa trong đó (ví dụ: một giao diện chatbot, bảng điều khiển tùy chỉnh).  
-  - **Thất bại:** ❌ Nếu có lỗi xảy ra (ví dụ: Add-in không được tải, macro bị lỗi, UserForm không tồn tại), hàm sẽ trả về một thông báo lỗi cụ thể trong ô chứa công thức để bạn dễ dàng xác định vấn đề.  
+  - **Thất bại:** ❌ Nếu có lỗi xảy ra (ví dụ: Add-in không được tải, macro bị lỗi, UserForm không tồn tại), hàm sẽ trả về một thông báo lỗi cụ thể trong ô chứa công thức để bạn dễ dàng xác định vấn đề.
+
+---
 
 ### 📌 Lưu ý quan trọng:  
   - **Add-in:** 🧩 Để hàm hoạt động, bạn phải đảm bảo rằng Add-in `"NXA.xlam"` đã được tải vào Excel của mình. Bạn có thể tải Add-in bằng cách đi tới tab Developer ➡️    - Excel Add-ins và chọn Add-in tương ứng.  
   - **UserForm:** 🖼️ UserForm là một cửa sổ tùy chỉnh trong Excel, được sử dụng để tạo giao diện người dùng. Nội dung và chức năng của UserForm sẽ phụ thuộc vào cách nó được thiết kế trong Add-in `"NXA.xlam"`.  
   - **Macro:** 💻 Macro nội bộ có tên `"ShowUserForm"` (hoặc tên tương tự) trong Add-in `"NXA.xlam"` có nhiệm vụ hiển thị UserForm khi hàm `NXA_Chat()` được gọi. Đảm bảo macro này tồn tại và hoạt động đúng.  
 
-### 💡 Ví dụ:  
-> Nếu bạn muốn mở một cửa sổ chat để giao tiếp với một chatbot hoặc một công cụ AI tùy chỉnh, bạn chỉ cần nhập công thức sau vào một ô bất kỳ (ví dụ: ô A1):  
-`=NXA_Chat()`  
+---
 
+### 💡 Ví dụ:  
+> Nếu bạn muốn mở một cửa sổ chat để giao tiếp với một chatbot hoặc một công cụ AI tùy chỉnh, bạn chỉ cần nhập công thức sau vào một ô bất kỳ (ví dụ: ô A1):
+
+  ```=NXA_Chat()```
+
+---
 Khi nhấn Enter, cửa sổ chat sẽ hiện ra, sẵn sàng cho bạn tương tác.  
 
 ### 🎯 Tóm tắt:  
