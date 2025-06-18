@@ -19,7 +19,7 @@ Nhấn Enter: ✅ Sau khi nhập xong, nhấn Enter để chạy hàm và nhận
 ### 💡 Ví dụ:  
 > Giả sử bạn muốn hỏi Gemini về thủ đô nước Pháp, đồng thời muốn giới hạn câu trả lời trong 30 từ:  
 
-    `=NXA_AskGemini("What is the capital of France?", 30)`  
+    =NXA_AskGemini("What is the capital of France?", 30)  
 
 ---
 
