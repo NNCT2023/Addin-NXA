@@ -7,8 +7,9 @@
     - `text` (bắt buộc): 🔑 Kiểu dữ liệu String. Đây là câu hỏi hoặc yêu cầu mà bạn muốn đặt cho Gemini.  
     - `word_count` (tùy chọn): 🔢 Kiểu dữ liệu Long (số nguyên). Đối số này xác định số lượng từ tối đa bạn mong muốn trong câu trả lời của Gemini (mặc định là 0, có nghĩa là không giới hạn độ dài).  
 ### 🚀 Cách sử dụng:  
-  - Nhập công thức: ⌨️ Trong ô bạn muốn tương tác với Gemini, hãy nhập công thức sau: `=NXA_AskGemini(text, [word_count])`.  
-Thay thế các đối số:  
+- Nhập công thức: ⌨️ Trong ô bạn muốn tương tác với Gemini, hãy nhập công thức sau: `=NXA_AskGemini(text, [word_count])`.
+
+  - Thay thế các đối số:  
     - `text:` ✍️ Nhập câu hỏi hoặc yêu cầu của bạn (ví dụ: "What is the capital of France?").  
     - `word_count:` (Tùy chọn) 💡 Điền số lượng từ mong muốn trong câu trả lời (ví dụ: 50 nếu bạn muốn câu trả lời khoảng 50 từ).  
 Nhấn Enter: ✅ Sau khi nhập xong, nhấn Enter để chạy hàm và nhận câu trả lời từ Gemini.  
@@ -18,7 +19,7 @@ Nhấn Enter: ✅ Sau khi nhập xong, nhấn Enter để chạy hàm và nhận
 ### 💡 Ví dụ:  
 > Giả sử bạn muốn hỏi Gemini về thủ đô nước Pháp, đồng thời muốn giới hạn câu trả lời trong 30 từ:  
 
-    - `=NXA_AskGemini("What is the capital of France?", 30)`  
+    `=NXA_AskGemini("What is the capital of France?", 30)`  
 
 ---
 
@@ -36,8 +37,8 @@ Nhấn Enter: ✅ Sau khi nhập xong, nhấn Enter để chạy hàm và nhận
 
 ### 🛠️ Các trường hợp sử dụng khác:  
   - ❓ Đặt câu hỏi về kiến thức tổng hợp ở nhiều lĩnh vực.  
-  - 📝 Yêu cầu Gemini thực hiện các tác vụ đơn giản bằng ngôn ngữ (ví dụ: "List 5 benefits of exercise").  
-  - ✍️ Sử dụng Gemini để tóm tắt nội dung văn bản một cách ngắn gọn (kết hợp với đối số word_count).  
+  - 📝 Yêu cầu Gemini thực hiện các tác vụ đơn giản bằng ngôn ngữ (ví dụ: "`List 5 benefits of exercise`").  
+  - ✍️ Sử dụng Gemini để tóm tắt nội dung văn bản một cách ngắn gọn (kết hợp với đối số `word_count`).  
 
 ---
 
