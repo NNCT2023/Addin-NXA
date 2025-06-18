@@ -27,7 +27,7 @@ Chào mừng bạn đến với **Add-in NXA**, một trợ lý AI tích hợp t
 📁 **Hướng dẫn thiết lập ban đầu:**
 
 - [⚙️ Cấu hình Add-in trong Excel](docs/setup/config-addin.md)
-- [🧩 Thiết lập trong Google Sheet](docs/setup/cai-dat-tren-GoogleSheet.md)
+- [🧩 Thiết lập trong Google Sheet](docs/setup/gemini-for-gg-sheet.md)
 
 ---
 
