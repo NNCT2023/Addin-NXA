@@ -1,6 +1,6 @@
 **📚Hướng Dẫn Sử Dụng Hàm NXA_AIMemories**  
 
-## 🌟 Chức năng:  
+### 🌟 Chức năng:  
 - Hàm `NXA_AIMemories` 🤝 giúp bạn tương tác trực tiếp với mô hình ngôn ngữ lớn (Large Language Model - LLM) của Google AI, có tên là Gemini, trong môi trường giống như trò chuyện 💬.  
 - Bạn có thể đặt câu hỏi cho Gemini và nhận lại câu trả lời dựa trên kho kiến thức rộng lớn và khả năng xử lý ngôn ngữ của nó 🧠.  
 - *Đặc biệt, hàm này còn có khả năng 💾 lưu trữ lịch sử trò chuyện để tạo ngữ cảnh liền mạch cho các tương tác tiếp theo của bạn.*  
@@ -11,7 +11,7 @@
 
 ---
 
-## 🚀 Cách sử dụng:
+### 🚀 Cách sử dụng:
 
 Nhập công thức: ⌨️ Trong ô bạn muốn tương tác với Gemini, hãy nhập công thức sau: `=NXA_AIMemories(text, [reset])`.
 
@@ -36,7 +36,7 @@ Giả sử bạn muốn hỏi Gemini về thủ đô của nước Pháp:
 
 ---
 
-## 📌 Lưu ý quan trọng:
+### 📌 Lưu ý quan trọng:
 - Kết nối internet: 🌐 Cần đảm bảo có kết nối internet ổn định để sử dụng hàm một cách suôn sẻ.  
 - `API Key:` 🔑 Hiện tại, hướng dẫn sử dụng cung cấp `API Key mẫu` nhưng bạn cần có `API Key riêng` của mình để kích hoạt đầy đủ chức năng.  
 - Lịch sử trò chuyện: 📂 Lịch sử trò chuyện được lưu trữ trong một tệp tin văn bản trên máy tính của bạn. Bạn có thể xóa lịch sử này một cách dễ dàng bằng cách đặt đối số reset thành `True`.  
@@ -44,7 +44,7 @@ Giả sử bạn muốn hỏi Gemini về thủ đô của nước Pháp:
 
 ---
 
-## 🛠️ Các trường hợp sử dụng khác:  
+### 🛠️ Các trường hợp sử dụng khác:  
 - ❓ Đặt câu hỏi về kiến thức tổng hợp thuộc mọi lĩnh vực.  
 - 📝 Yêu cầu Gemini thực hiện các tác vụ đơn giản bằng ngôn ngữ (ví dụ: tạo danh sách, gợi ý tên).  
 - ✍️ Sử dụng Gemini để sáng tạo nội dung văn bản (ví dụ: viết email, bài đăng blog).  
