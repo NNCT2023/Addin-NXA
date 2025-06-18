@@ -50,7 +50,7 @@
 
 ---
 
-[!TIP]💡 Mẹo hữu ích:  
+💡 Mẹo hữu ích:  
   - [Danh sách mã ngôn ngữ](http://www.lingoes.net/en/translator/langcode.htm): 📄 Để tạo một danh sách các mã ngôn ngữ được hỗ trợ một cách tự động, bạn có thể sử dụng một hàm khác để gọi API của Gemini và lấy danh sách các ngôn ngữ có sẵn mà nó hỗ trợ.  
   - **Dịch số lượng lớn:** 📊 Nếu bạn cần dịch một lượng lớn văn bản (ví dụ: hàng ngàn dòng dữ liệu), hãy cân nhắc sử dụng các công cụ dịch thuật chuyên nghiệp hoặc các dịch vụ đám mây được thiết kế riêng cho mục đích này để tăng tốc độ và hiệu quả.  
   - Với hàm `NXA_AITranslator` này, bạn có thể dễ dàng dịch văn bản sang nhiều ngôn ngữ khác nhau ngay trong Excel, mở rộng đáng kể khả năng làm việc với dữ liệu đa ngôn ngữ của bạn! 🚀
