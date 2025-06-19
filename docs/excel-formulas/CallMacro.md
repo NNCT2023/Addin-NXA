@@ -13,7 +13,7 @@ Hàm `NNCT_CallMacro` 🚀 là một công cụ mạnh mẽ cho phép bạn chè
 
 - `macroInput (Bắt buộc):` 🔑 Kiểu dữ liệu Variant. Đối số này xác định nguồn của mã VBA mà bạn muốn chèn:  
 
-- `Số 1:` 🔢 Nếu bạn nhập số `1`, hàm sẽ tự động chèn một danh sách các macro cố định (hiện tại bao gồm: `AIO_MyMacro.bas`, `QR_QuickChart.bas`, `QRcode_ChatGPT.bas`) được lưu trữ trên GitHub Gist của tác giả @XuanAn2018.  
+- `Số 1:` 🔢 Nếu bạn nhập số `1`, hàm sẽ tự động chèn một danh sách các macro cố định (hiện tại bao gồm: `AIO_MyMacro.bas`, `QR_QuickChart.bas`, `QRcode_ChatGPT.bas`) được lưu trữ trên GitHub Gist của tác giả [XuanAn2018](https://gist.githubusercontent.com/XuanAn2018/).  
 
 - Chuỗi (URL): 🔗 Nếu bạn có URL riêng chứa mã VBA từ một nguồn tin cậy, bạn có thể nhập trực tiếp URL đó vào đối số này.  
 
