@@ -43,10 +43,10 @@
 **Bảo mật API Key:** 🔑 Hàm này sử dụng [API Key của Google Cloud Platform](https://aistudio.google.com/app/apikey). API Key được minh họa trong hàm chỉ mang tính chất ví dụ và không nên sử dụng trực tiếp. Bạn cần có API Key riêng của mình để đảm bảo an toàn và kích hoạt chức năng.  
 
 **Kiểm tra đầu vào:** ✅ Hàm sẽ tự động kiểm tra tính hợp lệ của đầu vào: đoạn văn bản và từ khóa không được để trống.  
-      - Kết quả trả về: 📤  
-        - Thông tin được trích xuất theo từ khóa mà bạn cung cấp.  
-        - Lỗi nếu không tìm thấy thông tin theo từ khóa (ví dụ: "`No name found`" nếu không có tên nào được phát hiện).  
-        - Lỗi nếu gặp vấn đề trong quá trình trích xuất hoặc kết nối API (ví dụ: `lỗi mạng`, `lỗi API Key`).  
+  - Kết quả trả về: 📤  
+    - Thông tin được trích xuất theo từ khóa mà bạn cung cấp.  
+    - Lỗi nếu không tìm thấy thông tin theo từ khóa (ví dụ: "`No name found`" nếu không có tên nào được phát hiện).  
+    - Lỗi nếu gặp vấn đề trong quá trình trích xuất hoặc kết nối API (ví dụ: `lỗi mạng`, `lỗi API Key`).  
         
 **Dịch vụ có phí:** 💰 Hàm này phụ thuộc vào dịch vụ Google Cloud Platform có trả phí. Hãy kiểm tra chi phí sử dụng API của Gemini trên trang chủ Google Cloud Platform.  
 
