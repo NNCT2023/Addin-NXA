@@ -54,7 +54,6 @@ Giả sử bạn có một bảng dữ liệu về "`lỗi đường may`" ở v
 
 **Kết quả:** (AI sẽ phân tích dữ liệu trong A1:C5 và đưa ra các nhận định, giải pháp tổng quát về lỗi đường may bằng tiếng Việt).
 
--
 
 - **Ví dụ 2:** Đặt câu hỏi không có dữ liệu (Tiếng Anh, có cấu trúc)
 Bạn không có dữ liệu cụ thể nhưng muốn hỏi chuyên gia về vấn đề đứt chỉ:
@@ -65,7 +64,7 @@ Bạn không có dữ liệu cụ thể nhưng muốn hỏi chuyên gia về v�
 
 **Kết quả:** (AI sẽ trả lời bằng tiếng Anh với cấu trúc như: 1. Type of issue, 2. Immediate fix, 3. Long-term improvement, 4. Notes, liên quan đến vấn đề đứt chỉ.)
 
--
+
 
 - **Ví dụ 3:** Chỉ hiển thị phản hồi gần đây từ nhật ký (không có dữ liệu/prompt mới)
 
@@ -75,7 +74,8 @@ Bạn không có dữ liệu cụ thể nhưng muốn hỏi chuyên gia về v�
 
 ---
 
-### 📌 Lưu ý quan trọng:
+> [!IMPORTANT]
+> ### 📌 Lưu ý quan trọng:
 
 **Cấu hình API: ⚙️**
   - Hàm sử dụng thông tin cấu hình từ file `config.txt` nằm trong thư mục `C:\Users\{USERPROFILE}\Documents\ChatLogs\`.
@@ -112,5 +112,5 @@ Bạn không có dữ liệu cụ thể nhưng muốn hỏi chuyên gia về v�
 - **Khám phá Models:** 🧠 Thử nghiệm với các model Gemini khác nhau (ví dụ: gemini-1.5-pro cho phân tích sâu hơn) trong file config.txt để xem model nào phù hợp nhất với nhu cầu của bạn.
 
 
-> [!TIP]
+> [!NOTE]
 > Với hàm `NXA_SewingExpert`, bạn đã có một trợ lý chuyên gia may mặc mạnh mẽ ngay trong Excel, giúp bạn nhanh chóng giải quyết các vấn đề và đưa ra quyết định sản xuất thông minh hơn! 🚀
