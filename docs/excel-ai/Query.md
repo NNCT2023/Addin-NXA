@@ -21,15 +21,17 @@ Hàm `NXA_Query` 💬 cho phép bạn đặt câu hỏi hoặc yêu cầu phân 
 ---
 
 ### 💡 Ví dụ:  
-Giả sử bạn có một bảng dữ liệu doanh số bán hàng trong vùng A1:C10 và muốn hỏi về tổng doanh số:  
 
-`=NXA_Query(A1:C10, "Tổng doanh số là bao nhiêu?")`  
 
-**Kết quả:** (Kết quả truy vấn, ví dụ: "Tổng doanh số là 15.000.000 VND" sẽ hiển thị trong ô).  
+| 🏷️ Trường hợp                | 📝 Mô tả                                                         | 💡 Cú pháp hàm                                      | 📊 Kết quả                              |
+|-----------------------------|-----------------------------------------------------------------|----------------------------------------------------|----------------------------------------|
+| ❓ Truy vấn tổng doanh số    | Hỏi về tổng doanh số từ bảng dữ liệu A1:C10.                    | =NXA_Query(A1:C10, "Tổng doanh số là bao nhiêu?")   | Tổng doanh số là 15.000.000 VND        |
+
 
 ---
 
 ### 📌 Lưu ý quan trọng:  
+
 **Cấu hình API: ⚙️**  
   - Hàm sử dụng thông tin cấu hình từ file config.txt nằm trong thư mục `Documents\ChatLogs`.  
   
