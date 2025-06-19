@@ -1,4 +1,4 @@
-📚 Hướng Dẫn Sử Dụng Hàm NXA_AskGemini  
+**📚 Hướng Dẫn Sử Dụng Hàm NXA_AskGemini**  
 
 ### 🌟 Chức năng:
   - Hàm `NXA_AskGemini` 💬 cho phép bạn tương tác trực tiếp với mô hình ngôn ngữ lớn Gemini của Google AI. Bạn có thể đặt bất kỳ câu hỏi hoặc yêu cầu nào, Gemini sẽ xử lý văn bản của bạn và trả về câu trả lời ngắn gọn, súc tích 🧠.  
