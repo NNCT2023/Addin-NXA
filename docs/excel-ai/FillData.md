@@ -44,7 +44,9 @@
 ### 📌 Lưu ý quan trọng:  
 
 **`Bảo mật API Key:`** 🔑 Hàm này sử dụng [API Key của Google Cloud Platform](https://aistudio.google.com/app/apikey). API Key được minh họa trong mã VBA chỉ mang tính chất ví dụ và không nên sử dụng trực tiếp. Bạn cần có API Key riêng của mình để đảm bảo an toàn và kích hoạt chức năng.  
+
 **Độ chính xác:** 🎯 Độ chính xác của kết quả dự đoán phụ thuộc rất nhiều vào chất lượng dữ liệu mẫu và khả năng hiểu ngữ cảnh của mô hình ngôn ngữ. Dữ liệu mẫu càng rõ ràng và đa dạng, kết quả càng chính xác.  
+
 **Dịch vụ có phí:** 💰 Hàm này phụ thuộc vào dịch vụ Google Cloud Platform có trả phí. Hãy kiểm tra chi phí sử dụng API của Gemini trên trang chủ Google Cloud Platform.  
 
 ---
@@ -63,7 +65,7 @@
 
 ---
 
-###⚠️ Giới hạn:  
+### ⚠️ Giới hạn:  
 
   - **Dự đoán không chính xác:** 📉 Mô hình có thể đưa ra dự đoán không chính xác nếu dữ liệu mẫu không đủ, không liên quan, hoặc quá ít để tạo ra một mẫu rõ ràng.  
   - **Dạng dữ liệu đơn giản:** 🔢 Hàm này hiện chỉ hoạt động hiệu quả với các dạng dữ liệu đơn giản (ví dụ: số, tên, ngày tháng, chuỗi ngắn). Đối với dữ liệu phức tạp hơn, kết quả có thể không như mong đợi.  
