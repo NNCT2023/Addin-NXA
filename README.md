@@ -60,6 +60,7 @@ Dưới đây là cú pháp và mô tả chi tiết cho từng hàm trong Add-in
 - Bỏ qua hoặc đặt `FALSE`: Tiếp tục phiên trò chuyện hiện tại.  
 - Đặt `TRUE`: Bắt đầu/đặt lại một phiên trò chuyện mới.
 
+---
 
 > `NXA_AskGemini(text, [word_count])`
 
@@ -67,10 +68,13 @@ Dưới đây là cú pháp và mô tả chi tiết cho từng hàm trong Add-in
 - `text`: Chuỗi văn bản chứa câu hỏi bạn muốn hỏi.  
 - `word_count (Tùy chọn)`: Số nguyên. Chỉ định số lượng từ tối đa cho kết quả do Gemini tạo ra.
 
+---
 
 > `NXA_Chat()`
 
 🗨️ Mở một giao diện người dùng (UserForm) cho phép người dùng trò chuyện trực tiếp với Gemini trong môi trường Excel.  
+
+---
 
 > `NXA_Extractor(prompt, keyword)`
 
@@ -78,6 +82,7 @@ Dưới đây là cú pháp và mô tả chi tiết cho từng hàm trong Add-in
 - `prompt`: Tham chiếu đến ô chứa văn bản nguồn mà bạn muốn trích xuất dữ liệu.  
 - `keyword`: Chuỗi văn bản chỉ định loại dữ liệu muốn trích xuất (ví dụ: "tên", "địa điểm", "tổ chức", "email").
 
+---
 
 > `NXA_FillData(rng_existingdata, rng_fill)`
 
@@ -85,6 +90,7 @@ Dưới đây là cú pháp và mô tả chi tiết cho từng hàm trong Add-in
 - `rng_existingdata`: Tham chiếu đến vùng dữ liệu đã có mà AI sẽ dùng để huấn luyện.  
 - `rng_fill`: Tham chiếu đến ô hoặc vùng ô cần điền dữ liệu.
 
+---
 
 > `NXA_Explain(cellFormula, [detail], [language])`
 
@@ -95,6 +101,7 @@ Dưới đây là cú pháp và mô tả chi tiết cho từng hàm trong Add-in
 - Đặt `FALSE`: Nhận giải thích ngắn gọn.  
 - `language (Tùy chọn)`: Chuỗi văn bản. Mã ngôn ngữ mong muốn cho lời giải thích (ví dụ: "vi" cho tiếng Việt, "en" cho tiếng Anh).
 
+---
 
 > `NXA_AITranslator(text As Variant, targetLanguage As String)`
 
@@ -102,6 +109,7 @@ Dưới đây là cú pháp và mô tả chi tiết cho từng hàm trong Add-in
 - `text`: Văn bản bạn muốn dịch. Có thể là một chuỗi văn bản hoặc một tham chiếu vùng dữ liệu trong Excel.
 - `targetLanguage`: Chuỗi văn bản chứa mã ngôn ngữ đích (ví dụ: "en" cho tiếng Anh, "vi" cho tiếng Việt).
 
+---
 
 > `NXA_Query(rngData, prompt)`
 
@@ -109,6 +117,7 @@ Dưới đây là cú pháp và mô tả chi tiết cho từng hàm trong Add-in
 - `rngData (Bắt buộc)`: Tham chiếu đến vùng dữ liệu trong bảng tính Excel mà bạn muốn truy vấn.  
 - `prompt (Bắt buộc)`: Chuỗi văn bản chứa câu hỏi hoặc yêu cầu phân tích bạn muốn gửi đến Gemini.
 
+---
 
 > `NXA_Insights(rngData, [prompt])`
 
