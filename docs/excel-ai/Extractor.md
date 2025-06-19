@@ -13,25 +13,15 @@
 ---
 
 ### 💡 Ví dụ:  
-  - Giả sử ô A1 của bạn chứa đoạn văn bản: "John Doe is the CEO of Acme Corp. located in New York City."  
+  - Giả sử ô A1 của bạn chứa đoạn văn bản: "`John Doe is the CEO of Acme Corp. located in New York City.`"
 
-    - **Ví dụ 1**: Trích xuất tên người  
-      Để trích xuất tên người từ đoạn văn bản trong ô A1, bạn sử dụng công thức:  
 
-      - `=NXA_Extractor(A1, "name")`  
-      - Kết quả trả về: "John Doe"  
+   | 🏷️ Trường hợp                     | 📝 Mô tả                                                         | 💡 Cú pháp hàm                              | 📊 Kết quả             |
+|----------------------------------|-----------------------------------------------------------------|--------------------------------------------|-----------------------|
+| 👤 Trích xuất tên người           | Trích xuất tên người từ văn bản trong ô A1.                      | =NXA_Extractor(A1, "name")                 | John Doe              |
+| 🌍 Trích xuất địa điểm           | Trích xuất địa điểm từ văn bản trong ô A1.                      | =NXA_Extractor(A1, "place")                | New York City         |
+| 🏢 Trích xuất tổ chức            | Trích xuất tên tổ chức từ văn bản trong ô A1.                   | =NXA_Extractor(A1, "organization")         | Acme Corp.            |
 
-  - **Ví dụ 2:** Trích xuất địa điểm  
-      Để trích xuất địa điểm từ đoạn văn bản trong ô A1, bạn sử dụng công thức:  
-
-     - `=NXA_Extractor(A1, "place")`  
-     - Kết quả trả về: "New York City"  
-
-    - **Ví dụ 3:** Trích xuất tổ chức  
-      Để trích xuất tên tổ chức từ đoạn văn bản trong ô A1, bạn sử dụng công thức:  
-
-    - `=NXA_Extractor(A1, "organization")`  
-      Kết quả trả về: "Acme Corp."  
 
 ---
 
