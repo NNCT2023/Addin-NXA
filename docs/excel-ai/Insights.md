@@ -24,21 +24,14 @@ Nhấn **Enter:** ✅ Excel sẽ gửi yêu cầu đến API của Gemini và hi
 
 ### 💡 Ví dụ:  
 
-- Giả sử bạn có một bảng dữ liệu doanh số bán hàng theo từng quý trong vùng A1:B10.  
+- Giả sử bạn có một bảng dữ liệu doanh số bán hàng theo từng quý trong vùng A1:B10.
 
-- Phân tích tổng hợp:  
-Để nhận phân tích tổng hợp về doanh số theo quý:  
 
-`=NXA_Insights(A1:B10)`  
+| 🏷️ Trường hợp                     | 📝 Mô tả                                                                 | 💡 Cú pháp hàm                                                      | 📊 Kết quả                                                                 |
+|----------------------------------|-------------------------------------------------------------------------|--------------------------------------------------------------------|---------------------------------------------------------------------------|
+| 📈 Phân tích tổng hợp             | Phân tích tổng hợp doanh số theo quý (trung bình, tổng, xu hướng).      | =NXA_Insights(A1:B10)                                              | Trung bình, tổng, xu hướng tăng/giảm doanh số theo quý.                    |
+| 🔍 Phân tích theo yêu cầu         | So sánh doanh số theo quý và dự báo xu hướng cho quý tới.              | =NXA_Insights(A1:B10, "So sánh doanh số theo quý và dự báo xu hướng cho quý tới") | So sánh doanh số giữa các quý, dự báo xu hướng cho quý tiếp theo.         |
 
-**Kết quả:** (Phân tích tổng hợp về doanh số theo quý, bao gồm các chỉ số như trung bình, tổng, xu hướng tăng/giảm, v.v.)  
-
-- Phân tích theo yêu cầu:  
-Để so sánh doanh số theo quý và dự báo xu hướng cho quý tới:  
-
-`=NXA_Insights(A1:B10, "So sánh doanh số theo quý và dự báo xu hướng cho quý tới")`  
-
-**Kết quả:** (Phân tích so sánh doanh số giữa các quý, kèm theo dự báo tiềm năng cho quý tiếp theo dựa trên xu hướng hiện có)  
 
 ---
 
