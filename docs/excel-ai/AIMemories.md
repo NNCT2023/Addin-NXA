@@ -42,7 +42,6 @@ Giả sử bạn muốn hỏi Gemini về thủ đô của nước Pháp:
 
 > [!IMPORTANT]
 > ### 📌 Lưu ý quan trọng:  
-
 > - **Kết nối internet:** 🌐 Cần đảm bảo có kết nối internet ổn định để sử dụng hàm một cách suôn sẻ.  
 > - **`API Key:`** 🔑 Hiện tại, hướng dẫn sử dụng cung cấp `API Key mẫu` nhưng bạn cần có `API Key riêng` của mình để kích hoạt đầy đủ chức năng.  
 > - **Lịch sử trò chuyện:** 📂 Lịch sử trò chuyện được lưu trữ trong một tệp tin văn bản trên máy tính của bạn. Bạn có thể xóa lịch sử này một cách dễ dàng bằng cách đặt đối số `reset` thành `True`.  
