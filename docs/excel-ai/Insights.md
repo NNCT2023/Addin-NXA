@@ -52,6 +52,8 @@ Nhấn **Enter:** ✅ Excel sẽ gửi yêu cầu đến API của Gemini và hi
 
 **Độ phức tạp:** 📈 Khả năng phân tích của Gemini phụ thuộc vào độ phức tạp và chất lượng của dữ liệu bạn cung cấp. Dữ liệu càng rõ ràng, chi tiết, kết quả phân tích càng chính xác.  
 
+---
+
 ### 💡 Mẹo hữu ích:  
 
 - **Chuẩn bị dữ liệu:** 📊 Luôn chuẩn bị dữ liệu của bạn theo dạng bảng với các tiêu đề cột rõ ràng và nhất quán để cải thiện độ chính xác và chiều sâu của phân tích.  
