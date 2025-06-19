@@ -52,15 +52,20 @@
 ---
 
 ### 🚀 Các bước sử dụng:  
-  **Sao chép mã VBA:** 💻 Sao chép mã VBA của hàm `NXA_FillData`, cùng với các hàm hỗ trợ như `GenerateTrainingPrompt`, `ExtractContentGemini_FillData`, `ExtractErrorGemini_FillData` vào trình soạn VBA của Excel (Alt + F11).  
-  **Thay thế API Key:** 🔑 Thay thế API key mặc định bằng API key thực tế của bạn trong mã VBA (nếu có).  
-    - **Chọn dữ liệu:** 🖱️ Chọn bảng dữ liệu mẫu (`rng_existingdata`) và ô cần điền (`rng_fill`).  
-    - **Nhập công thức:** ⌨️ Nhập công thức `=NXA_FillData(rng_existingdata, rng_fill)` vào ô cần điền hoặc một ô bất kỳ để thấy kết quả.  
+- **Sao chép mã VBA:** 💻 Sao chép mã VBA của hàm `NXA_FillData`, cùng với các hàm hỗ trợ như `GenerateTrainingPrompt`, `ExtractContentGemini_FillData`, `ExtractErrorGemini_FillData` vào trình soạn VBA của Excel (Alt + F11).  
+  
+- **Thay thế API Key:** 🔑 Thay thế API key mặc định bằng API key thực tế của bạn trong mã VBA (nếu có).
+
+- **Chọn dữ liệu:** 🖱️ Chọn bảng dữ liệu mẫu (`rng_existingdata`) và ô cần điền (`rng_fill`).
+
+- **Nhập công thức:** ⌨️ Nhập công thức `=NXA_FillData(rng_existingdata, rng_fill)` vào ô cần điền hoặc một ô bất kỳ để thấy kết quả.  
 
 ---
 
 ### 🛠️ Xử lý lỗi:  
-  - **Lỗi API Key hoặc kết nối:** 🌐 Nếu gặp lỗi liên quan đến API Key hoặc kết nối, bạn cần kiểm tra lại API Key của mình (đảm bảo nó hợp lệ và đã được cấu hình đúng) và kiểm tra kết nối internet để đảm bảo ổn định.  
+
+  - **Lỗi API Key hoặc kết nối:** 🌐 Nếu gặp lỗi liên quan đến API Key hoặc kết nối, bạn cần kiểm tra lại API Key của mình (đảm bảo nó hợp lệ và đã được cấu hình đúng) và kiểm tra kết nối internet để đảm bảo ổn định.
+
   - **Lỗi chất lượng văn bản:** ✍️ Nếu gặp lỗi do chất lượng dữ liệu mẫu, hãy kiểm tra xem bảng dữ liệu mẫu có rõ ràng và đầy đủ thông tin để Gemini có thể học hỏi và đưa ra dự đoán chính xác không.  
 
 ---
