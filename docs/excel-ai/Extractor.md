@@ -19,7 +19,7 @@
       Để trích xuất tên người từ đoạn văn bản trong ô A1, bạn sử dụng công thức:  
 
       - `=NXA_Extractor(A1, "name")`  
-      - Kết quả trả về: "Chí Công"  
+      - Kết quả trả về: "John Doe"  
 
   - **Ví dụ 2:** Trích xuất địa điểm  
       Để trích xuất địa điểm từ đoạn văn bản trong ô A1, bạn sử dụng công thức:  
