@@ -25,18 +25,22 @@ Nhấn Enter: ✅ Sau khi nhập xong, nhấn Enter để chạy hàm và nhận
 
 ### 💡 Ví dụ:
 Giả sử bạn muốn hỏi Gemini về thủ đô của nước Pháp:  
-> `=NXA_AIMemories("What is the capital of France?")`
 
-- Để xóa toàn bộ ký ức của AI và bắt đầu cuộc trò chuyện mới, bạn sử dụng:  
-> `=NXA_AIMemories(“reset”, TRUE)`  
-
----
-
-## ⚠️ Hãy thận trọng khi sử dụng các đoạn mã.  
+| 🏷️ Trường hợp                | 📝 Mô tả                                                                 | 💡 Cú pháp hàm                                      |
+|-----------------------------|-------------------------------------------------------------------------|---------------------------------------------------|
+| 🌍 Hỏi về một thông tin      | Bạn muốn hỏi Gemini về thủ đô của nước Pháp.                             | =NXA_AIMemories("What is the capital of France?")  |
+| 🗑️ Xóa toàn bộ ký ức AI     | Để xóa toàn bộ ký ức của AI và bắt đầu cuộc trò chuyện mới.             | =NXA_AIMemories("reset", TRUE)                    |
 
 ---
 
-### 📌 Lưu ý quan trọng:
+> [!CAUTION]
+> ## ⚠️ Hãy thận trọng khi sử dụng các đoạn mã.  
+
+---
+
+> [!IMPORTANT]
+> ### 📌 Lưu ý quan trọng:  
+
 - Kết nối internet: 🌐 Cần đảm bảo có kết nối internet ổn định để sử dụng hàm một cách suôn sẻ.  
 - `API Key:` 🔑 Hiện tại, hướng dẫn sử dụng cung cấp `API Key mẫu` nhưng bạn cần có `API Key riêng` của mình để kích hoạt đầy đủ chức năng.  
 - Lịch sử trò chuyện: 📂 Lịch sử trò chuyện được lưu trữ trong một tệp tin văn bản trên máy tính của bạn. Bạn có thể xóa lịch sử này một cách dễ dàng bằng cách đặt đối số reset thành `True`.  
@@ -51,6 +55,7 @@ Giả sử bạn muốn hỏi Gemini về thủ đô của nước Pháp:
 
 ---
 
-## 🎯 Tóm tắt:  
+> [!NOTE]
+> ## 🎯 Tóm tắt:  
 > Hàm `NXA_AIMemories` là một công cụ 📈 thú vị và mạnh mẽ để tương tác với mô hình ngôn ngữ lớn Gemini. Nó cho phép bạn đặt câu hỏi, nhận câu trả lời thông minh và tận dụng tối đa khả năng xử lý ngôn ngữ vượt trội của Gemini.  
 **Hãy luôn lưu ý về API Key và ngôn ngữ hỗ trợ khi sử dụng hàm này nhé!**
