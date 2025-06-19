@@ -57,8 +57,6 @@ Giả sử bạn có một bảng dữ liệu về "`lỗi đường may`" ở v
 
 
 
----
-
 > [!IMPORTANT]
 > ### 📌 Lưu ý quan trọng:
 
@@ -84,7 +82,8 @@ Giả sử bạn có một bảng dữ liệu về "`lỗi đường may`" ở v
 
 ---
 
-### 💡 Mẹo hữu ích:
+> [!TIP]
+> ### 💡 Mẹo hữu ích:
 
 - **Dữ liệu rõ ràng:** 📈 Luôn cung cấp dữ liệu rõ ràng, có cấu trúc và tiêu đề cột ý nghĩa để AI có thể phân tích chính xác nhất.
 
