@@ -25,7 +25,7 @@
       Để trích xuất địa điểm từ đoạn văn bản trong ô A1, bạn sử dụng công thức:  
 
      - `=NXA_Extractor(A1, "place")`  
-     - Kết quả trả về: "Hanoi City"  
+     - Kết quả trả về: "New York City"  
 
     - **Ví dụ 3:** Trích xuất tổ chức  
       Để trích xuất tên tổ chức từ đoạn văn bản trong ô A1, bạn sử dụng công thức:  
