@@ -26,15 +26,10 @@
 
 > [!IMPORTANT]
 > ### ⚠️ Lưu ý quan trọng:  
-
----
-
-  - **`Khóa API:`** 🔑 Trước khi sử dụng hàm, hãy đảm bảo bạn đã có khóa API của Gemini và đã thay thế `"YOUR_GEMINI_API_KEY"` trong mã hàm bằng khóa API thực tế của mình. Nếu không có khóa API hợp lệ, hàm sẽ không hoạt động.  
-
-  - **Kết nối mạng:** 🌐 Hàm này cần kết nối internet ổn định để gửi yêu cầu dịch đến API của Gemini.  
-  - **Mã ngôn ngữ:** 📖 Bạn có thể tìm thấy mã ngôn ngữ của các ngôn ngữ khác nhau trên trang web Google Cloud Platform hoặc tra cứu trực tuyến.  
-
-  - **Giới hạn sử dụng:** 📈 Việc sử dụng API của Gemini có thể chịu một số giới hạn về số lượng yêu cầu và lượng dữ liệu. Hãy tham khảo tài liệu chính thức của Google Cloud Platform để biết thêm chi tiết và quản lý việc sử dụng của bạn.  
+>  - **`Khóa API:`** 🔑 Trước khi sử dụng hàm, hãy đảm bảo bạn đã có khóa API của Gemini và đã thay thế `"YOUR_GEMINI_API_KEY"` trong mã hàm bằng khóa API thực tế của mình. Nếu không có khóa API hợp lệ, hàm sẽ không hoạt động.  
+> - **Kết nối mạng:** 🌐 Hàm này cần kết nối internet ổn định để gửi yêu cầu dịch đến API của Gemini.  
+>  - **Mã ngôn ngữ:** 📖 Bạn có thể tìm thấy mã ngôn ngữ của các ngôn ngữ khác nhau trên trang web Google Cloud Platform hoặc tra cứu trực tuyến.  
+>  - **Giới hạn sử dụng:** 📈 Việc sử dụng API của Gemini có thể chịu một số giới hạn về số lượng yêu cầu và lượng dữ liệu. Hãy tham khảo tài liệu chính thức của Google Cloud Platform để biết thêm chi tiết và quản lý việc sử dụng của bạn.  
 
 ---
 
