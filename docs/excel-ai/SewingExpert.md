@@ -39,6 +39,7 @@ Thay thế đối số:
     - `prompt (Tùy chọn)`: 💡 Nhập câu hỏi hoặc yêu cầu của bạn (ví dụ: "Làm thế nào để giảm thiểu đứt chỉ khi may nylon?").
     - `language (Tùy chọn)`: 🗣️ Nhập "`en`" nếu bạn muốn câu trả lời bằng tiếng Anh.
     - `structuredOutput (Tùy chọn)`: 📝 Nhập `TRUE` nếu bạn muốn câu trả lời được trình bày theo dạng gạch đầu dòng rõ ràng.
+  
 **Nhấn Enter:** ✅ Sau khi nhập xong, nhấn Enter. Excel sẽ gửi yêu cầu đến Gemini và hiển thị phân tích hoặc giải pháp trong ô.
 
 ---
@@ -53,6 +54,7 @@ Giả sử bạn có một bảng dữ liệu về "`lỗi đường may`" ở v
 
 **Kết quả:** (AI sẽ phân tích dữ liệu trong A1:C5 và đưa ra các nhận định, giải pháp tổng quát về lỗi đường may bằng tiếng Việt).
 
+-
 
 - **Ví dụ 2:** Đặt câu hỏi không có dữ liệu (Tiếng Anh, có cấu trúc)
 Bạn không có dữ liệu cụ thể nhưng muốn hỏi chuyên gia về vấn đề đứt chỉ:
@@ -63,6 +65,7 @@ Bạn không có dữ liệu cụ thể nhưng muốn hỏi chuyên gia về v�
 
 **Kết quả:** (AI sẽ trả lời bằng tiếng Anh với cấu trúc như: 1. Type of issue, 2. Immediate fix, 3. Long-term improvement, 4. Notes, liên quan đến vấn đề đứt chỉ.)
 
+-
 
 - **Ví dụ 3:** Chỉ hiển thị phản hồi gần đây từ nhật ký (không có dữ liệu/prompt mới)
 
@@ -109,4 +112,5 @@ Bạn không có dữ liệu cụ thể nhưng muốn hỏi chuyên gia về v�
 - **Khám phá Models:** 🧠 Thử nghiệm với các model Gemini khác nhau (ví dụ: gemini-1.5-pro cho phân tích sâu hơn) trong file config.txt để xem model nào phù hợp nhất với nhu cầu của bạn.
 
 
+> [!TIP]
 > Với hàm `NXA_SewingExpert`, bạn đã có một trợ lý chuyên gia may mặc mạnh mẽ ngay trong Excel, giúp bạn nhanh chóng giải quyết các vấn đề và đưa ra quyết định sản xuất thông minh hơn! 🚀
