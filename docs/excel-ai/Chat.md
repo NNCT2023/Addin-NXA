@@ -4,6 +4,7 @@
   - Hàm `NXA_Chat()` 💬 được thiết kế để kích hoạt một cửa sổ tương tác (thường là `UserForm`) được định nghĩa trong một Add-in Excel có tên là `"NXA.xlam"`. Cửa sổ này thường được sử dụng để thực hiện các chức năng liên quan đến chat, giao tiếp hoặc cung cấp giao diện người dùng tùy chỉnh trong Excel của bạn 🚀.  
 
   - 📝 Cú pháp:  
+> Bạn nhập công thức để mở khung chat:  
 
      ```=NXA_Chat()```
     
