@@ -5,9 +5,9 @@ Hàm `NNCT_GETURL` 🔗 được thiết kế để trích xuất địa chỉ U
 
 ---
 
-###📝 Cú pháp:  
+### 📝 Cú pháp:  
 
-`=NNCT_GETURL(pWorkRng As Range)`  
+```=NNCT_GETURL(pWorkRng As Range)```  
 
 ### ⚙️ Đối số:  
 
@@ -37,7 +37,7 @@ Giả sử bạn đã chèn liên kết `"https://www.example.com"` vào ô A2. 
 
 | 🏷️ Trường hợp              | 📝 Mô tả                                                         | 💡 Cú pháp hàm                | 📊 Kết quả                     |
 |---------------------------|-----------------------------------------------------------------|------------------------------|-------------------------------|
-| 🔗 Lấy địa chỉ URL         | Lấy URL từ ô A2 (ví dụ: "https://www.example.com").             | =NNCT_GETURL(A2)            | https://www.example.com       |
+| 🔗 Lấy địa chỉ URL         | Lấy URL từ ô A2 (ví dụ: "`https://www.example.com`").             | =NNCT_GETURL(A2)            | `https://www.example.com`       |
 
 
 ---
