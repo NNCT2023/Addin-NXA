@@ -58,8 +58,7 @@
 ---
 
 
-> [!TIP]
-> ### 💡 Mẹo hữu ích:  
-> - **Tùy chỉnh mức độ chi tiết:** 🎨 Sử dụng tham số detail tùy theo ngữ cảnh và mức độ chi tiết cần thiết. Khi học hỏi, hãy dùng TRUE; khi chỉ cần hiểu nhanh, hãy dùng FALSE.  
-> - **Kiểm tra lại:** 👀 Luôn kiểm tra lại lời giải thích do Gemini cung cấp để đảm bảo tính chính xác và phù hợp với công thức của bạn, đặc biệt với các công thức mới hoặc ít gặp.  
-> - **Cải thiện kỹ năng Excel:** 🚀 Với hàm NXA_Explain, bạn có thể dễ dàng hiểu các công thức Excel, ngay cả những công thức phức tạp nhất. Điều này giúp bạn tiết kiệm thời gian tìm kiếm tài liệu và cải thiện kỹ năng sử dụng Excel một cách đáng kể!  
+### 💡 Mẹo hữu ích:  
+- **Tùy chỉnh mức độ chi tiết:** 🎨 Sử dụng tham số `detail` tùy theo ngữ cảnh và mức độ chi tiết cần thiết. Khi học hỏi, hãy dùng `TRUE`; khi chỉ cần hiểu nhanh, hãy dùng `FALSE`.  
+- **Kiểm tra lại:** 👀 Luôn kiểm tra lại lời giải thích do Gemini cung cấp để đảm bảo tính chính xác và phù hợp với công thức của bạn, đặc biệt với các công thức mới hoặc ít gặp.  
+- **Cải thiện kỹ năng Excel:** 🚀 Với hàm `NXA_Explain`, bạn có thể dễ dàng hiểu các công thức Excel, ngay cả những công thức phức tạp nhất. Điều này giúp bạn tiết kiệm thời gian tìm kiếm tài liệu và cải thiện kỹ năng sử dụng Excel một cách đáng kể!  
