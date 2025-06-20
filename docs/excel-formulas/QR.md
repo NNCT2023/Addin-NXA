@@ -36,13 +36,15 @@ Hàm `NNCT_QR` 📸 là một công cụ tiện lợi giúp bạn tạo và chè
     - `autoResize`, `width`, `height`: (Tùy chọn) Nếu bạn muốn kiểm soát kích thước ảnh, hãy điều chỉnh các đối số này.  
 - **Nhấn Enter:** ✅ Sau khi nhập xong công thức, nhấn Enter để thực hiện hàm. Mã QR sẽ được tạo và chèn vào vị trí bạn đã chỉ định.  
 
+---
+
 ### 💡 Ví dụ:  
 
 Giả sử bạn muốn tạo mã QR cho URL "`https://www.example.com`" và chèn mã QR đó vào ô B2, đồng thời tự động điều chỉnh kích thước để vừa với ô B2:  
 
 `=NNCT_QR("https://www.example.com", B2)`  
  
-> Kết quả: (Mã QR cho` https://www.example.com` sẽ xuất hiện trong ô B2).  
+- **Kết quả:** (Mã QR cho` https://www.example.com` sẽ xuất hiện trong ô B2).  
 
 
 
