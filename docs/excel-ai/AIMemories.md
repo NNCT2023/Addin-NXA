@@ -35,7 +35,7 @@ Giả sử bạn muốn hỏi Gemini về thủ đô của nước Pháp:
 
 ---
 
- ### ⚠️ Hãy thận trọng khi sử dụng các đoạn mã.  
+### ⚠️ Hãy thận trọng khi sử dụng các đoạn mã.  
 
 ---
 
