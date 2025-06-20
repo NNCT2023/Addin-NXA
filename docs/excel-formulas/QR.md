@@ -42,7 +42,8 @@ Giả sử bạn muốn tạo mã QR cho URL "`https://www.example.com`" và ch�
 
 `=NNCT_QR("https://www.example.com", B2)`  
  
- > Kết quả: (Mã QR cho` https://www.example.com` sẽ xuất hiện trong ô B2).  
+> Kết quả: (Mã QR cho` https://www.example.com` sẽ xuất hiện trong ô B2).  
+
 
 
 +------------+-----------------------------------------+
