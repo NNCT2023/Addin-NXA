@@ -41,7 +41,7 @@ Bạn muốn tạo mã QR cho giao dịch 100.000 VND đến tài khoản "Nguye
 
 | 🏷️ Trường hợp                     | 📝 Mô tả                                                                 | 💡 Cú pháp hàm                                                                 | 📊 Kết quả                              |
 |----------------------------------|-------------------------------------------------------------------------|-------------------------------------------------------------------------------|----------------------------------------|
-| 💸 Tạo mã QR thanh toán          | Tạo mã QR cho giao dịch 100.000 VND đến Nguyen Van A tại Vietcombank.   | `=NNCT_QR_Bank("Vietcombank", "0411000999535", "NGUYEN CHI CONG", 100000, "Thanh toan hoa don")` | URL mã QR thanh toán hiển thị trong ô  |
+| 💸 Tạo mã QR thanh toán          | Tạo mã QR cho giao dịch 100.000 VND đến Nguyen Van A tại Vietcombank.   | `=NNCT_QR_Bank("Vietcombank", "0123456789", "Nguyen Van A", 100000, "Thanh toan hoa don")` | URL mã QR thanh toán hiển thị trong ô  |
 
 
 ---
