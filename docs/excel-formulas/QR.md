@@ -54,6 +54,7 @@ Giả sử bạn muốn tạo mã QR cho URL "`https://www.example.com`" và ch�
 | =QR(A1,C1,300x300) | 📏 Hình ảnh kích thước 300x300, đặt tại ô C1 |
 +------------+-----------------------------------------+
 
+
 ---
 
 ### ⚠️ Hãy thận trọng khi sử dụng các đoạn mã.  
@@ -70,9 +71,12 @@ Giả sử bạn muốn tạo mã QR cho URL "`https://www.example.com`" và ch�
 ---
 
 ### 🎨 Các trường hợp sử dụng khác:  
-**Tạo mã QR cho thông tin liên hệ:** 📞 Dễ dàng tạo mã QR cho số điện thoại, địa chỉ email, hoặc thậm chí là thông tin liên hệ đầy đủ (vCard) để chia sẻ nhanh chóng.  
-**Tạo mã QR dẫn đến trang web:** 🔗 Dùng để tạo các mã QR dẫn đến các trang sản phẩm, bài viết blog, hoặc bất kỳ URL nào bạn muốn.  
-**Tạo mã QR để mở file/ứng dụng:** 📁 Với một số cấu hình nhất định, bạn có thể tạo mã QR để dẫn đến việc mở một file cục bộ hoặc kích hoạt một ứng dụng trên thiết bị di động (tùy thuộc vào khả năng của thiết bị quét).  
+
+- **Tạo mã QR cho thông tin liên hệ:** 📞 Dễ dàng tạo mã QR cho số điện thoại, địa chỉ email, hoặc thậm chí là thông tin liên hệ đầy đủ (vCard) để chia sẻ nhanh chóng.  
+
+- **Tạo mã QR dẫn đến trang web:** 🔗 Dùng để tạo các mã QR dẫn đến các trang sản phẩm, bài viết blog, hoặc bất kỳ URL nào bạn muốn.  
+
+- **Tạo mã QR để mở file/ứng dụng:** 📁 Với một số cấu hình nhất định, bạn có thể tạo mã QR để dẫn đến việc mở một file cục bộ hoặc kích hoạt một ứng dụng trên thiết bị di động (tùy thuộc vào khả năng của thiết bị quét).  
 
 ---
 
