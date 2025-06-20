@@ -6,8 +6,8 @@
   - 📝 Cú pháp:  
 > Bạn nhập công thức để mở khung chat:  
 
-     =NXA_Chat()
-    
+    =NXA_Chat()
+
 ---
 
 ### 🚀 Cách sử dụng:  
