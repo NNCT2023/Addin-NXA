@@ -7,6 +7,8 @@ Hàm `NNCT_IMAGE` 🖼️ là một công cụ tiện lợi giúp bạn dễ dà
 
 ```=NNCT_IMAGE(url, [autoFit], [height], [width])```  
 
+---
+
 ### ⚙️ Các đối số:  
   - `url (Bắt buộc)`: 🔑 Kiểu dữ liệu String. Đây là địa chỉ URL đầy đủ của hình ảnh mà bạn muốn chèn vào Excel.  
   - `autoFit (Tùy chọn)`: 📏 Kiểu dữ liệu Boolean (mặc định là TRUE).  
@@ -17,7 +19,7 @@ Hàm `NNCT_IMAGE` 🖼️ là một công cụ tiện lợi giúp bạn dễ dà
 
 ---
 
-###🚀 Cách sử dụng:  
+### 🚀 Cách sử dụng:  
 - **Nhập công thức:** ⌨️ Trong ô bạn muốn hình ảnh hiển thị, nhập công thức `=NNCT_IMAGE(...)`.  
   - **Thay thế các đối số:** 🖋️  
     - `url`: Nhập địa chỉ URL của hình ảnh bạn muốn chèn (ví dụ: `"https://www.example.com/logo.png"`).  
