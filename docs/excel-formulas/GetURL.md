@@ -45,18 +45,20 @@ Giả sử bạn đã chèn liên kết `"https://www.example.com"` vào ô A2. 
 
 - **Một ô - Một siêu liên kết:** ☝️ Về cơ bản, một ô trong Excel chỉ có thể chứa một siêu liên kết chính. Nếu ô chứa nhiều nội dung văn bản hoặc nhiều đoạn có vẻ là liên kết, hàm sẽ chỉ trả về địa chỉ của liên kết đầu tiên mà nó tìm thấy được.  
 
-**Kiểu dữ liệu của ô:** 📄 Ô chứa siêu liên kết không nhất thiết phải được định dạng là "Hyperlink". Hàm vẫn sẽ hoạt động bình thường ngay cả khi ô chứa cả văn bản và liên kết được nhúng trong đó.  
+- **Kiểu dữ liệu của ô:** 📄 Ô chứa siêu liên kết không nhất thiết phải được định dạng là "Hyperlink". Hàm vẫn sẽ hoạt động bình thường ngay cả khi ô chứa cả văn bản và liên kết được nhúng trong đó.  
 
-**Ứng dụng thực tế:** 📊 Hàm này cực kỳ hữu ích trong các trường hợp bạn muốn tự động hóa việc trích xuất địa chỉ URL từ một bảng dữ liệu lớn chứa nhiều liên kết, giúp bạn tiết kiệm thời gian và công sức so với việc sao chép thủ công từng liên kết.  
+- **Ứng dụng thực tế:** 📊 Hàm này cực kỳ hữu ích trong các trường hợp bạn muốn tự động hóa việc trích xuất địa chỉ URL từ một bảng dữ liệu lớn chứa nhiều liên kết, giúp bạn tiết kiệm thời gian và công sức so với việc sao chép thủ công từng liên kết.  
 
 ---
 
 ### 📈 Cải tiến tiềm năng:  
-Để hàm này trở nên linh hoạt và mạnh mẽ hơn, bạn có thể xem xét các cải tiến sau (dành cho người phát triển VBA):  
+- Để hàm này trở nên linh hoạt và mạnh mẽ hơn, bạn có thể xem xét các cải tiến sau (dành cho người phát triển VBA):  
 
-**Xử lý lỗi chi tiết:** 🛠️ Có thể bổ sung thêm đoạn mã để xử lý trường hợp ô không chứa liên kết hoặc xảy ra lỗi khi truy xuất liên kết, trả về thông báo lỗi thân thiện hơn.  
-**Hỗ trợ nhiều liên kết:** 🧩 Nếu một ô có khả năng chứa nhiều liên kết được nhúng (thường là thông qua các định dạng văn bản nâng cao), có thể mở rộng hàm để trả về một mảng chứa tất cả các địa chỉ URL tìm thấy.  
-**Tùy chỉnh định dạng:** 🎨 Có thể thêm các tham số tùy chọn để tùy chỉnh cách hiển thị kết quả, ví dụ như cắt ngắn URL, chỉ hiển thị tên miền, hoặc thêm tiền tố/hậu tố.  
+  - **Xử lý lỗi chi tiết:** 🛠️ Có thể bổ sung thêm đoạn mã để xử lý trường hợp ô không chứa liên kết hoặc xảy ra lỗi khi truy xuất liên kết, trả về thông báo lỗi thân thiện hơn.  
+
+  - **Hỗ trợ nhiều liên kết:** 🧩 Nếu một ô có khả năng chứa nhiều liên kết được nhúng (thường là thông qua các định dạng văn bản nâng cao), có thể mở rộng hàm để trả về một mảng chứa tất cả các địa chỉ URL tìm thấy.  
+
+  - **Tùy chỉnh định dạng:** 🎨 Có thể thêm các tham số tùy chọn để tùy chỉnh cách hiển thị kết quả, ví dụ như cắt ngắn URL, chỉ hiển thị tên miền, hoặc thêm tiền tố/hậu tố.  
 
 ---
 
