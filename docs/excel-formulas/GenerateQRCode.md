@@ -16,14 +16,14 @@ Hàm `NNCT_GenerateQRCode` 📸 giúp bạn tạo ra một mã QR (QR Code) dự
 
 ---
 
-### 🚀 Cách Sử Dụng:
-- **Nhập công thức:** ⌨️ Trong ô bạn muốn hiển thị liên kết đến mã QR, nhập công thức `=NNCT_GenerateQRCode(...)`.
+### 🚀 Cách Sử Dụng:  
+- **Nhập công thức:** ⌨️ Trong ô bạn muốn hiển thị liên kết đến mã QR, nhập công thức `=NNCT_GenerateQRCode(...)`.  
 
-- **Thay thế các đối số:** 🖋️
-  - `content`: Nhập nội dung văn bản bạn muốn mã hóa (ví dụ: "`https://www.example.com`" hoặc tham chiếu đến một ô chứa văn bản đó).
-  - `width`: (Tùy chọn) Điền giá trị chiều rộng mong muốn (ví dụ: 300).
-  - `height`: (Tùy chọn) Điền giá trị chiều cao mong muốn (ví dụ: 300).
-- Nhấn **Enter:** ✅ Nhấn Enter để chạy hàm. Excel sẽ hiển thị một liên kết đến mã QR được tạo trên trang web `api.qrserver.com`. Bạn có thể nhấp vào liên kết này để xem hình ảnh mã QR.
+- **Thay thế các đối số:** 🖋️  
+  - `content`: Nhập nội dung văn bản bạn muốn mã hóa (ví dụ: "`https://www.example.com`" hoặc tham chiếu đến một ô chứa văn bản đó).  
+  - `width`: (Tùy chọn) Điền giá trị chiều rộng mong muốn (ví dụ: 300).  
+  - `height`: (Tùy chọn) Điền giá trị chiều cao mong muốn (ví dụ: 300).  
+- Nhấn **Enter:** ✅ để chạy hàm. Excel sẽ hiển thị một liên kết đến mã QR được tạo trên trang web `api.qrserver.com`. Bạn có thể nhấp vào liên kết này để xem hình ảnh mã QR.  
 
 ---
 
@@ -31,22 +31,22 @@ Hàm `NNCT_GenerateQRCode` 📸 giúp bạn tạo ra một mã QR (QR Code) dự
 
 | 🏷️ Trường hợp                     | 📝 Mô tả                                                         | 💡 Cú pháp hàm                                              | 📊 Kết quả                              |
 |----------------------------------|-----------------------------------------------------------------|------------------------------------------------------------|----------------------------------------|
-| 📷 Tạo mã QR mặc định            | Tạo mã QR cho URL với kích thước mặc định.                      | =NNCT_GenerateQRCode("https://www.example.com")            | Mã QR kích thước mặc định             |
-| 📏 Tùy chỉnh kích thước mã QR     | Tạo mã QR với chiều rộng và cao 300 pixel.                      | =NNCT_GenerateQRCode("https://www.example.com", 300, 300)  | Mã QR kích thước 300x300 pixel        |
+| 📷 Tạo mã QR mặc định            | Tạo mã QR cho URL với kích thước mặc định.                      | =NNCT_GenerateQRCode("`https://www.example.com`")            | Mã QR kích thước mặc định             |
+| 📏 Tùy chỉnh kích thước mã QR     | Tạo mã QR với chiều rộng và cao 300 pixel.                      | =NNCT_GenerateQRCode("`https://www.example.com`", 300, 300)  | Mã QR kích thước 300x300 pixel        |
 
 
 ---
 
-### ⚠️ Hãy thận trọng khi sử dụng các đoạn mã.
+### ⚠️ Hãy thận trọng khi sử dụng các đoạn mã.  
 
 ---
 
-### 📌 Lưu Ý Quan Trọng:
-- **Kết nối Internet:** 🌐 Để hàm có thể tạo và truy xuất mã QR từ dịch vụ web, bạn cần đảm bảo có kết nối internet ổn định. Hàm sẽ không hoạt động nếu không có mạng.
-- **Nội dung mã hóa:** 📄 Hiện tại, hàm `NNCT_GenerateQRCode` chỉ hỗ trợ mã hóa nội dung văn bản. Đảm bảo dữ liệu bạn cung cấp là một chuỗi văn bản.
-- **Kích thước mã QR:** 📏 Việc điều chỉnh width và height rất quan trọng để mã QR dễ dàng quét và hiển thị đẹp mắt. Mã QR quá nhỏ có thể khó quét, trong khi quá lớn có thể chiếm nhiều không gian không cần thiết.
+### 📌 Lưu Ý Quan Trọng:  
+- **Kết nối Internet:** 🌐 Để hàm có thể tạo và truy xuất mã QR từ dịch vụ web, bạn cần đảm bảo có kết nối internet ổn định. Hàm sẽ không hoạt động nếu không có mạng.  
+- **Nội dung mã hóa:** 📄 Hiện tại, hàm `NNCT_GenerateQRCode` chỉ hỗ trợ mã hóa nội dung văn bản. Đảm bảo dữ liệu bạn cung cấp là một chuỗi văn bản.  
+- **Kích thước mã QR:** 📏 Việc điều chỉnh width và height rất quan trọng để mã QR dễ dàng quét và hiển thị đẹp mắt. Mã QR quá nhỏ có thể khó quét, trong khi quá lớn có thể chiếm nhiều không gian không cần thiết.  
 
 ---
 
-### 🎯 Tóm Tắt:
+### 🎯 Tóm Tắt:  
 Hàm `NNCT_GenerateQRCode` là một công cụ tiện lợi để tạo mã QR nhanh chóng ngay trong Excel. Hãy nhớ rằng bạn cần kết nối internet và nội dung mã hóa phải là văn bản. Chức năng tùy chỉnh kích thước cho phép bạn tạo mã QR phù hợp với mọi mục đích sử dụng. 🌟  
