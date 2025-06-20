@@ -17,6 +17,8 @@ Hàm `NNCT_CallMacro` 🚀 là một công cụ mạnh mẽ cho phép bạn chè
 
 - Chuỗi (URL): 🔗 Nếu bạn có URL riêng chứa mã VBA từ một nguồn tin cậy, bạn có thể nhập trực tiếp URL đó vào đối số này.  
 
+---
+
 ### 🚀 Cách sử dụng:  
 
 
@@ -39,10 +41,11 @@ Nhấn **Enter:** ✅ Khi bạn nhấn Enter, hàm sẽ thực thi quá trình t
 | 📜 Chèn danh sách macro cố định  | Chèn ba macro mặc định từ GitHub Gist của XuanAn2018.                   | =NNCT_CallMacro(1)                                                 | Chèn AIO_MyMacro.bas, QR_QuickChart.bas, QRcode_ChatGPT.bas    |
 | 🌐 Chèn macro từ URL riêng       | Chèn macro từ URL riêng, ví dụ: MyMacro.bas từ GitHub Gist.            | =NNCT_CallMacro("https://gist.githubusercontent.com/username/123abc/raw/MyMacro.bas") | Chèn macro từ URL được chỉ định        |
 
+---
 
-> [!CAUTION]
->⚠️ Hãy thận trọng khi sử dụng các đoạn mã được tải về từ internet.  
+⚠️ Hãy thận trọng khi sử dụng các đoạn mã được tải về từ internet.  
 
+---
 
 ### 📌 Lưu ý quan trọng:  
 
@@ -54,11 +57,12 @@ Nhấn **Enter:** ✅ Khi bạn nhấn Enter, hàm sẽ thực thi quá trình t
 
 **Kết nối Internet:** 🌐 Để tải mã VBA từ các URL, hàm cần có kết nối internet ổn định.  
 
-> [!NOTE]
-> ### 💬 Thông báo trả về:  
->`Success`: Nếu hàm thực hiện thành công việc chèn mã VBA.  
->`Error`: Kèm theo mô tả lỗi: Nếu gặp vấn đề trong quá trình thực thi (ví dụ: không thể kết nối URL, lỗi nội bộ).  
->`Error`: Invalid input type. Enter the formula `=NXA_HELP` to view instructions for inserting macros: Nếu kiểu dữ liệu của đối số đầu vào macroInput không hợp lệ (ví dụ: nhập văn bản không phải URL hoặc số khác 1).  
+---
+
+### 💬 Thông báo trả về:  
+`Success`: Nếu hàm thực hiện thành công việc chèn mã VBA.  
+`Error`: Kèm theo mô tả lỗi: Nếu gặp vấn đề trong quá trình thực thi (ví dụ: không thể kết nối URL, lỗi nội bộ).  
+`Error`: Invalid input type. Enter the formula `=NXA_HELP` to view instructions for inserting macros: Nếu kiểu dữ liệu của đối số đầu vào macroInput không hợp lệ (ví dụ: nhập văn bản không phải URL hoặc số khác 1).  
 
 
 ### 📖 Mã VBA hỗ trợ:  
