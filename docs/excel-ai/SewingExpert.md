@@ -57,8 +57,7 @@ Giả sử bạn có một bảng dữ liệu về "`lỗi đường may`" ở v
 
 
 
-> [!IMPORTANT]
-> ### 📌 Lưu ý quan trọng:
+### 📌 Lưu ý quan trọng:
 
 **Cấu hình API: ⚙️**
   - Hàm sử dụng thông tin cấu hình từ file `config.txt` nằm trong thư mục `C:\Users\{USERPROFILE}\Documents\ChatLogs\`.
@@ -82,8 +81,7 @@ Giả sử bạn có một bảng dữ liệu về "`lỗi đường may`" ở v
 
 ---
 
-> [!TIP]
-> ### 💡 Mẹo hữu ích:
+### 💡 Mẹo hữu ích:
 
 - **Dữ liệu rõ ràng:** 📈 Luôn cung cấp dữ liệu rõ ràng, có cấu trúc và tiêu đề cột ý nghĩa để AI có thể phân tích chính xác nhất.
 
@@ -96,5 +94,4 @@ Giả sử bạn có một bảng dữ liệu về "`lỗi đường may`" ở v
 - **Khám phá Models:** 🧠 Thử nghiệm với các model Gemini khác nhau (ví dụ: gemini-1.5-pro cho phân tích sâu hơn) trong file config.txt để xem model nào phù hợp nhất với nhu cầu của bạn.
 
 
-> [!NOTE]
-> Với hàm `NXA_SewingExpert`, bạn đã có một trợ lý chuyên gia may mặc mạnh mẽ ngay trong Excel, giúp bạn nhanh chóng giải quyết các vấn đề và đưa ra quyết định sản xuất thông minh hơn! 🚀
+Với hàm `NXA_SewingExpert`, bạn đã có một trợ lý chuyên gia may mặc mạnh mẽ ngay trong Excel, giúp bạn nhanh chóng giải quyết các vấn đề và đưa ra quyết định sản xuất thông minh hơn! 🚀
