@@ -37,7 +37,7 @@ Hàm `NNCT_TRANSLATE` 🌍 là một công cụ mạnh mẽ giúp bạn dịch v
 ---
 
 ### 💡 Ví dụ:
-- Giả sử bạn muốn dịch câu "Hello, how are you?" từ tiếng Anh sang tiếng Pháp:
+- Giả sử bạn muốn dịch câu "Hello, how are you?" từ tiếng Anh sang Tiếng Việt:
 
 
 | 🏷️ Trường hợp              | 📝 Mô tả                                                         | 💡 Cú pháp hàm                                          | 📊 Kết quả                     |
