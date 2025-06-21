@@ -1,8 +1,6 @@
 **📌 Những Lưu Ý Quan Trọng Bạn Cần Biết:**  
 
-### **[Cấu hình API](https://makersuite.google.com/app/apikey)**: 
-
- ### ⚙️ Đây là bước quan trọng nhất để hàm có thể hoạt động.  
+ ### ⚙️ [Cấu hình API](https://makersuite.google.com/app/apikey). Đây là bước quan trọng nhất để hàm có thể hoạt động.  
   
   - Hàm sử dụng thông tin cấu hình từ một file văn bản có tên config.txt nằm trong thư mục `Documents\ChatLogs` của bạn. 
 
