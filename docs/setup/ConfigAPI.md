@@ -49,7 +49,7 @@ Hàm `NXA_ZConfigAPI` là một chức năng cốt lõi trong [Add-in NXA](https
 
 ---
 
-###📝 Ví dụ:
+### 📝 Ví dụ:
 
 
 | 🏷️ Trường hợp              | 📝 Mô tả                                                         | 💡 Cú pháp hàm                                          | 📊 Kết quả                     |
@@ -61,10 +61,10 @@ Hàm `NXA_ZConfigAPI` là một chức năng cốt lõi trong [Add-in NXA](https
 ### 🛠️ Các Hàm Hỗ Trợ Liên Quan
 - Hàm `NXA_ZConfigAPI` sử dụng một số hàm nội bộ để thực hiện chức năng của mình:
 
-  `SaveConfig(filePath As String, apiKey As String, model As String):` 💾 Hàm này chịu trách nhiệm ghi nội dung cấu hình `(API Key và Model)` cùng với các hướng dẫn vào tệp `config.txt`.  
-  `IsValidApiKey(apiKey As String) As Boolean:` ✔️ Kiểm tra tính hợp lệ cơ bản của API Key bằng cách đảm bảo độ dài của nó lớn hơn 10 ký tự.  
-  `IsValidModel(model As String) As Boolean:` ✔️ Xác minh rằng tên model được cung cấp nằm trong danh sách các mô hình Gemini được hỗ trợ.  
-  `SaveUnicodeFile(filePath As String, content As String):` 📄 Ghi nội dung vào tệp tin ở định dạng UTF-8 với Byte Order Mark (BOM) để đảm bảo hỗ trợ đầy đủ các ký tự đặc biệt.  
+  - `SaveConfig(filePath As String, apiKey As String, model As String):` 💾 Hàm này chịu trách nhiệm ghi nội dung cấu hình `(API Key và Model)` cùng với các hướng dẫn vào tệp `config.txt`.  
+  - `IsValidApiKey(apiKey As String) As Boolean:` ✔️ Kiểm tra tính hợp lệ cơ bản của API Key bằng cách đảm bảo độ dài của nó lớn hơn 10 ký tự.  
+  - `IsValidModel(model As String) As Boolean:` ✔️ Xác minh rằng tên model được cung cấp nằm trong danh sách các mô hình Gemini được hỗ trợ.  
+  - `SaveUnicodeFile(filePath As String, content As String):` 📄 Ghi nội dung vào tệp tin ở định dạng UTF-8 với Byte Order Mark (BOM) để đảm bảo hỗ trợ đầy đủ các ký tự đặc biệt.  
 
 ---
 
