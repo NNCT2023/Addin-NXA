@@ -26,6 +26,7 @@ Chào mừng bạn đến với **[Add-in NXA](https://github.com/XuanAn2018/Add
 
 📁 **Hướng dẫn thiết lập ban đầu:**
 
+- [⚙️ Cấu hình API Key và model AI Gemini](docs/setup/ConfigAPI.md)
 - [⚙️ Cấu hình Add-in trong Excel](docs/setup/config-addin.md)
 - [🧩 Thiết lập trong Google Sheet](docs/setup/gemini-for-gg-sheet.md)
 
