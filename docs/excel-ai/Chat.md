@@ -6,7 +6,7 @@
   - 📝 Cú pháp:  
 > Bạn nhập công thức để mở khung chat:  
 
-    =NXA_Chat()
+      =NXA_Chat()
 
 ---
 
@@ -36,7 +36,7 @@
 ### 💡 Ví dụ:  
 Nếu bạn muốn mở một cửa sổ chat để giao tiếp với một chatbot hoặc một công cụ AI tùy chỉnh, bạn chỉ cần nhập công thức sau vào một ô bất kỳ (ví dụ: ô A1):
 
-  ```=NXA_Chat()```
+      =NXA_Chat()
 
 ---
 
