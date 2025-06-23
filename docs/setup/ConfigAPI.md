@@ -30,7 +30,7 @@ Hàm `NXA_ZConfigAPI` là một chức năng cốt lõi trong [Add-in NXA](https
 
 ### 📦 Tham số:
 
-- `apiKey (Bắt buộc):` Chuỗi văn bản. 🔑 Đây là API Key của bạn từ Google AI Studio. Bạn có thể lấy API Key tại `https://makersuite.google.com/app/apikey`.
+- `apiKey (Bắt buộc):` Chuỗi văn bản. 🔑 Đây là API Key của bạn từ Google AI Studio. [Bạn có thể lấy API Key tại đây](https://makersuite.google.com/app/apikey).
 
 - `model (Tùy chọn):` Chuỗi văn bản. 🤖 Tên của mô hình Gemini bạn muốn sử dụng. Mặc định là "`gemini-2.5-flash`". Các mô hình được hỗ trợ bao gồm:
   - `"gemini-pro"`
@@ -56,15 +56,6 @@ Hàm `NXA_ZConfigAPI` là một chức năng cốt lõi trong [Add-in NXA](https
 |---------------------------|-----------------------------------------------------------------|--------------------------------------------------------|-------------------------------|
 | 🔧 Cấu hình API           | Cấu hình API Key và mô hình Gemini-1.5-pro.                    | =NXA_ZConfigAPI("YOUR_API_KEY_HERE", "gemini-1.5-pro") | Cấu hình API thành công       |
 
----
-
-### 🛠️ Các Hàm Hỗ Trợ Liên Quan
-- Hàm `NXA_ZConfigAPI` sử dụng một số hàm nội bộ để thực hiện chức năng của mình:
-
-  - `SaveConfig(filePath As String, apiKey As String, model As String):` 💾 Hàm này chịu trách nhiệm ghi nội dung cấu hình `(API Key và Model)` cùng với các hướng dẫn vào tệp `config.txt`.  
-  - `IsValidApiKey(apiKey As String) As Boolean:` ✔️ Kiểm tra tính hợp lệ cơ bản của API Key bằng cách đảm bảo độ dài của nó lớn hơn 10 ký tự.  
-  - `IsValidModel(model As String) As Boolean:` ✔️ Xác minh rằng tên model được cung cấp nằm trong danh sách các mô hình Gemini được hỗ trợ.  
-  - `SaveUnicodeFile(filePath As String, content As String):` 📄 Ghi nội dung vào tệp tin ở định dạng UTF-8 với Byte Order Mark (BOM) để đảm bảo hỗ trợ đầy đủ các ký tự đặc biệt.  
 
 ---
 
