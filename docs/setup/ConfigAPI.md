@@ -24,7 +24,7 @@ Hàm `NXA_ZConfigAPI` là một chức năng cốt lõi trong [Add-in NXA](https
 
   - **Cú pháp:**
 
-    ```NXA_ZConfigAPI(apiKey As String, Optional model As String = "gemini-2.5-flash") As String```
+        NXA_ZConfigAPI(apiKey As String, Optional model As String = "gemini-2.5-flash") As String
 
 ---
 
@@ -54,7 +54,7 @@ Hàm `NXA_ZConfigAPI` là một chức năng cốt lõi trong [Add-in NXA](https
 
 | 🏷️ Trường hợp              | 📝 Mô tả                                                         | 💡 Cú pháp hàm                                          | 📊 Kết quả                     |
 |---------------------------|-----------------------------------------------------------------|--------------------------------------------------------|-------------------------------|
-| 🔧 Cấu hình API           | Cấu hình API Key và mô hình Gemini-1.5-pro.                    | =NXA_ZConfigAPI("YOUR_API_KEY_HERE", "gemini-1.5-pro") | Cấu hình API thành công       |
+| 🔧 Cấu hình API           | Cấu hình API Key và mô hình Gemini-1.5-pro.                    | =NXA_ZConfigAPI("`YOUR_API_KEY_HERE`", "`gemini-1.5-pro`") | Cấu hình API thành công       |
 
 
 ---
